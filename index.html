@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body onload="startTime()">
+    <div class="box1">
+        <div class="changeFormat">
+                <input type="button" onclick="hideDate()" id="hideDate" class="hideDate" value="Hide/Show Date">
+                <input type="button" onclick="hideWeek()" id="hideWeek" class="hideWeek" value="Hide/Show Week">
+        </div>
+        <div class="fsButton">
+            <input type="button" onclick="FullScreen()" id="fullScreen" class="fullScreen" value="Full Screen">
+        </div>
+        <div class="colorButton">
+            <label for="colorButton">Change font color:</label>
+            <input type="color" id="fontColor" class="fontColor" value="#000000">
+        </div>
+        <div class="fontButton">
+            <label>Change font size:
+                <select class="fontSize" name="fontSize">
+                    <option value="200%">Small</option>
+                    <option value="400%">Medium</option>
+                    <option value="600%">Large</option>
+                    <option value="800%">X-Large</option>
+                </select>
+              </label>
+            </select> 
+        </div>
+    </div>
+    <div class="box2" id="box2">
+    <div class="date" id="date"></div>
+    <div class="weekday" id="weekday"></div>
+    <div class="time" id="time"></div>
+    </div>
+    <div class="box3">
+        <h2>Nikita Jegorov</h2>
+        <p>190999IFIFB.DT</p>
+        <a href="https://github.com/c1371064/js-clock-homework">Github link</a> 
+    </div>
+</body>
+</html>
+<span></span>

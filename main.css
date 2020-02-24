@@ -1,0 +1,67 @@
+@keyframes movement {
+    0%   {background-color:lightsteelblue;}
+    25%  {background-color:royalblue;}
+    50%  {background-color:springgreen};
+    75%  {background-color: slateblue;}
+    100% {background-color:steelblue; }
+}
+body {
+    background-color: steelblue;
+    animation-name: movement;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-delay: 0ms;
+  }
+
+div.box1 {
+    border: medium solid black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+
+.fsButton {
+    text-align: center;
+    align-self: start;
+}
+ .colorButton {
+    text-align: right;
+}
+.fontButton{
+    text-align: right;
+}
+
+.changeFormat{
+    text-align: right;
+}
+
+div.box2 {
+    border-left:medium solid black;
+    border-right:medium solid black;   
+    padding-top: 4%;
+    padding-bottom: 9%;
+    text-align: center;
+}
+#time{
+    font-stretch: extra-expanded;
+    font-weight: 600;
+    font-size: 400%;
+}
+
+#date{
+    font-stretch: extra-expanded;
+    font-weight: 600;
+    font-size: 400%;
+}
+
+#weekday{
+    font-stretch: extra-expanded;
+    font-weight: 600;
+    font-size: 400%;
+}
+
+div.box3 {
+    border: medium solid black;
+}
+
