@@ -1,3 +1,5 @@
+# http://greeny.cs.tlu.ee/~mikkrand/eesrakenduste_arendamine/1-kodutoo/
+
 # 1kodutoo
 1. kodutöö Eesrakenduste arendamises.
 
