@@ -1,4 +1,4 @@
-# http://greeny.cs.tlu.ee/~mikkrand/eesrakenduste_arendamine/1-kodutoo/
+# http://www.tlu.ee/~randomik/1-kodutoo/
 
 # Clock by Rando Mikksaar
 
