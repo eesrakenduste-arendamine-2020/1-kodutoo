@@ -27,12 +27,12 @@ function showDate(){
 
     var date = new Date();
 
-    let days = ["Monday","Tuesday","Wednesday","Thursday",
-                "Fryday","Saturday","Sunday"];
+    let days = ["Sunday", "Monday","Tuesday","Wednesday","Thursday",
+                "Fryday","Saturday"];
     let months = ["January","February","March","April","May","June","July",
                   "August","September","Oktober","November","december"];
 
-    var weekDay = days[date.getDay()-1]; 
+    var weekDay = days[date.getDay()];
     var month = months[date.getMonth()];
     var monthDay = date.getDate();
     var year = date.getFullYear();
@@ -60,4 +60,14 @@ function progressBarMovement(){
     document.getElementById("minuteProgressBar").style.width = minuteWitdh;
     document.getElementById("secondProgressBar").style.width = secondWitdh;
 
+}
+
+function changeBGColor(){
+    var color = document.getElementById("BGColorPicker").value;
+    document.body.style.background = color;
+}
+
+function changeBarColor(colorID, barID) {
+    var color = document.getElementById(colorID).value;
+    document.getElementById(barID).style.backgroundColor = color;
 }

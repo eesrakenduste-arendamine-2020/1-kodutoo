@@ -1,8 +1,8 @@
 body{
 	color:black;
-	background-color: white;
+	background-color: #92DCE5;
     margin: 0px;
-    font-family: Verdana, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #progressBarContainer {
@@ -17,19 +17,19 @@ body{
 #hourProgressBar {
     width: 0%;
     height: 4vh;
-    background-color: rgb(83, 202, 231);
+    background-color: #EEE5E9;
 }
 
 #minuteProgressBar {
     width: 0%;
     height: 4vh;
-    background-color: rgb(18, 137, 167);
+    background-color: #7C7C7C;
 }
 
 #secondProgressBar {
     width: 0%;
     height: 4vh;
-    background-color: rgb(23, 75, 88);
+    background-color: #D64933;
 }
 
 
@@ -44,7 +44,7 @@ body{
 }
 
 .timeContainer {
-    font-size: 11vw;
+    font-size: 13vw;
 }
 
 .dateContainer {
@@ -63,6 +63,7 @@ a {
     color: black;
     text-decoration: aqua;
 }
+
 a:hover {
     text-decoration: underline;
 }
@@ -71,5 +72,22 @@ ul li {
     list-style: none;
     float: left;
     margin-left: 15px;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: white;
+}
+
+button {
+    padding: 0;
+    width: 110px;
+    height: 25px;
+    background-color: #EEE5E9;
+    border-radius: 5px;
 }
 
