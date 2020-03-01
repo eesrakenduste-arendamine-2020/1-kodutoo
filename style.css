@@ -1,0 +1,93 @@
+body{
+	color:black;
+	background-color: #92DCE5;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#progressBarContainer {
+    position:absolute;
+    margin-top: 75vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 1px;
+}
+
+  
+#hourProgressBar {
+    width: 0%;
+    height: 4vh;
+    background-color: #EEE5E9;
+}
+
+#minuteProgressBar {
+    width: 0%;
+    height: 4vh;
+    background-color: #7C7C7C;
+}
+
+#secondProgressBar {
+    width: 0%;
+    height: 4vh;
+    background-color: #D64933;
+}
+
+
+.dateTimeContainer {
+    font-style: normal;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.timeContainer {
+    font-size: 13vw;
+}
+
+.dateContainer {
+    font-size: 2vw;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: aqua;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    margin-left: 15px;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    border: none;
+    background-color: white;
+}
+
+button {
+    padding: 0;
+    width: 110px;
+    height: 25px;
+    background-color: #EEE5E9;
+    border-radius: 5px;
+}
+

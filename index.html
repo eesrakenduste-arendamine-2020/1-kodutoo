@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Clock</title>
+</head>
+<body>
+
+    <div id="main" class="main">
+
+        <div id="dateTimeContainer" class="dateTimeContainer">
+            <div id="timeContainer" class="timeContainer" onmouseover="scaleUpText()">00:00:00</div>
+            <div id="dateContainer" class="dateContainer">Day, date, year</div>
+        </div>
+
+        <div id="progressBarContainer" class="progressBarContainer">
+            <div id="hourProgressBar"></div>
+            <div id="minuteProgressBar"></div>
+            <div id="secondProgressBar"></div> 
+        </div>
+
+        <div id="footer" class="footer">
+            <ul>
+                <li>BG:<input type="color" id="BGColorPicker" value="#92DCE5"></li>
+                <li>H:<input type="color" id="HColorPicker" value="#EEE5E9"></li>
+                <li>M:<input type="color" id="MColorPicker" value="#7C7C7C"></li>
+                <li>S:<input type="color" id="SColorPicker" value="#D64933"></li>
+                <li><button onclick="changeBGColor(), changeBarColor('HColorPicker','hourProgressBar')
+                                                    , changeBarColor('MColorPicker','minuteProgressBar')
+                                                    , changeBarColor('SColorPicker','secondProgressBar')">CHANGE COLORS</button></li>
+                <li><a href="https://github.com/RandoMikksaar/1-kodutoo">github</a></li>
+                <li>© Rando Mikksaar</li>
+            </ul>
+        </div>
+        
+    </div>
+
+</body>
+</html>
