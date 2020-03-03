@@ -1,0 +1,38 @@
+body {
+			background-image: url("jou1.jpg");
+            max-width: 100%;
+            height: auto;
+		}
+		
+		#clock {
+			
+			position: fixed;
+			top: 55%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			opacity: 100;
+			font-size: 3vmax;
+			font-family: 'Verdana', monospace;
+            
+			
+            
+
+            border-radius: 25px;
+			padding: 20px;
+            margin:auto;
+            box-shadow: -webkit-box-shadow: 4px 13px 108px -43px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 13px 108px -43px rgba(0,0,0,0.75);
+box-shadow: 4px 13px 108px -43px rgba(0,0,0,0.75);
+            background-color:white;
+            display: inline;
+            position:absolute;
+            
+            
+		
+		}.btn-dark{
+			background-color: white;
+			font-weight: bold;
+			opacity: 100;
+		}.btn-dark:hover {
+			background-color: aliceblue;
+		}
