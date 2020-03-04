@@ -1,37 +1,23 @@
-# 1kodutoo
-1. kodutöö Eesrakenduste arendamises.
+# Kell
 
-## Tähtaeg 08.03.2018 23:59
+![Pilt](https://i.imgur.com/BWqt8gl.png)
 
-Kujunda kellanäide vastavalt maitsele või kindlale teemale, mahutades kella täisekraanile, et saaks kasutada lauakella või ekraanisäästja asemel. Selleks, et see sobiks paljudele ekraanidele, kasuta kujunduse loomisel protsendilisi väärtusi (nt width: 100%; ) või nt võimalda kella suurust kasutajal muuta.
+## Funktsionaalsus ja detailid
 
-## Nõuded
+Olemas on kell ning all on olemas kolm kasti mille peale saab vajutades saab muuta atribuute lehekülge.
 
-1. Veebirakendus töötab. Näitab kella, kuupäeva, nädalapäeva ja aastat.
-1. Vastavalt kasutaja tegevusele on võimalik muuta **kolme** lauakella atribuuti muuta.
-1. Kasutatud on eventListener'e ja funktsioone.
-1. Kell on originaalne ning kasutajaliides on maitsekalt kujundatud kasutades CSS-i - peab olema ise kirjutatud. 
-1. Autori ees- ja perenimi on lehel välja toodud
-1. Lehel on viide rakenduse repositooriumile
-1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
+Kell on renderdatud SVG failiga, kus ma disainisin numbrid ise Illustratoris, sest tahtsin õppida kuidas SVG faile kasutada veebis. Algselt olid kõik numbrid eraldi SVG failid aga selgus, et neid ei laeta piisavalt kiiresti, seetõttu panin kõik ühte faili. Tõenäoliselt parim lahendus oleks panna SVG HTML-i ja siis laadida, kuid ma ei nuputanud välja kuidas seda tööle saada niimoodi.
+Värvimuutja tahtsin teha umbes nii, et kui tõmmata joon lehekülje keskelt hiireni ning siis sellest välja arvutada nurk selle joone ja vertikaalse sirge vahel ja sellest saada hue väärtus. Ma ei ole kindel kas see matemaatiliselt välja tuli kuid tunnen, et see töötab piisavalt hästi, et väga vahet ei ole.
 
-## Mõned ideed võimalikeks täiendusteks (lihtsalt, et mõte hakkaks jooksma)
+Mul ei olnud väga suurt motivatsiooni lisada sätteid ja nuppe leheküljele, sest tundsin, et kell oli juba hästi arusaadav. 
 
-* Vahetuda võivad taustapildid, taustal võib mängida muusika
-* Taustale klikkides muudetakse kella taustaväri
-* Kellale klõpsides muudetakse numbrite värvi või numbrite suurust;
-* Iga numbri suurust saab eraldi muuta
-* Nooleklahvidega saab kella ekraanil liigutada
-* Küsi enne kella näitamise alustamist kasutajalt tema lemmikvärv ja tee sellest lähtudes midagi
-* Muuda kella ja tausta värvi vastavalt ajale (päev/öö)
-* Kella suurus ja asukoht sõltuvad hiire asukohast ekraanil
-* Kirjatüüpi saab ka muuta, [google.com/fonts](https://www.google.com/fonts)
-* Kasutaja saab lisada või kasutajaöe näidatakse mitu kellaaega erinevatest maailma kohtadest
-* Elemendid muudavad asukohta teatud kasutaja käitumise peale.
-* Saab vahetada keelt, kellaformaati vms.
+Nupud:
 
-## Abimaterjal
+* Taustapilt: lülitab taustapildi sisse või välja
+* Kell tab-i title-is: saab tab-i title-is kella näha
+* Pусский язык: lülitab kuupäeva vene keelde
+* Värvimuutja: Kursori asukoha järgi värvi muutmine
 
-* Sündmuste loetelu [HTML DOM Events](http://www.w3schools.com/jsref/dom_obj_event.asp)
-* Ajal põhinevad sündmused [JavaScript Timing Events](http://www.w3schools.com/js/js_timing.asp)
-* CSSi muutmine [HTML DOM Style Object](http://www.w3schools.com/jsref/dom_obj_style.asp)
+### Autor
+
+Sten-Marten Raudmets

@@ -1,0 +1,75 @@
+<svg viewBox="0 0 37.7 73.2"
+    xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style>
+            .a {
+                fill: none;
+                stroke: #000;
+            }
+
+            .b {
+                transform: translate(25%, 25%);
+            }
+
+            g {
+                display: none;
+            }
+
+            g:target {
+                display: initial;
+                height: 100%;
+                width: 100%;
+            }
+        </style>
+    </defs>
+    <g id="0" viewBox="0 0 37 73">
+        <title>0</title>
+        <path class="a" d="M36.5,18.5a18,18,0,0,0-36,0v36a18,18,0,0,0,36,0Z" />
+    </g>
+    <g id="1" viewBox="0 0 37 73">
+        <title>1</title>
+        <polyline class="a" points="0.4 37.2 36.4 1.2 36.9 73.7" />
+    </g>
+    <g id="2" viewBox="0 0 37.4 73">
+        <title>2</title>
+        <path class="a" d="M.5,18.5A18.3,18.3,0,0,1,20.8.6C31.2,2,36.3,11.6,36,21.8,35.3,45.3.5,41.4.5,72.5h36" />
+    </g>
+    <g id="3" viewBox="0 0 37 73">
+        <title>3</title>
+        <path class="a" d="M.5,54.5a18,18,0,1,0,18-18,18,18,0,1,0-18-18" />
+    </g>
+    <g id="4" viewBox="0 0 37.7 73.2">
+        <title>4</title>
+        <polyline class="a" points="37.2 73.2 37.2 37.2 37.2 1.2 1.2 37.2 37.2 37.2" />
+    </g>
+    <g id="5" viewBox="0 0 37.1 72.4">
+        <title>5</title>
+        <path class="a" d="M36.5.5H.5v45c2.2-23.2,33.9-22.5,36,0S15.1,81.9.5,63.5" />
+    </g>
+    <g id="6" viewBox="0 0 37 73">
+        <title>6</title>
+        <path class="a" d="M36.5.5a36,36,0,0,0-36,36v18" />
+        <circle class="a" cx="18.5" cy="54.5" r="18" />
+    </g>
+    <g id="7" viewBox="0 0 37.3 72.7">
+        <title>7</title>
+        <polyline class="a" points="0.4 0.5 36.4 0.5 0.4 72.5" />
+    </g>
+    <g id="8" viewBox="0 0 37 73">
+        <title>8</title>
+        <circle class="a" cx="18.5" cy="18.5" r="18" />
+        <circle class="a" cx="18.5" cy="54.5" r="18" />
+    </g>
+    <g id="9" viewBox="0 0 37 73">
+        <title>9</title>
+        <path class="a" d="M.5,72.5a36,36,0,0,0,36-36v-18" />
+        <circle class="a" cx="18.5" cy="18.5" r="18" />
+    </g>
+    <g id=":" >
+        <title>:</title>
+        <path class="b"
+            d="M4.5,1A3.5,3.5,0,0,1,8,4.5,3.5,3.5,0,0,1,4.5,8,3.5,3.5,0,0,1,1,4.5,3.5,3.5,0,0,1,4.5,1m0-1A4.5,4.5,0,1,0,9,4.5,4.5,4.5,0,0,0,4.5,0Z" />
+        <path class="b"
+            d="M4.5,28a3.5,3.5,0,0,1,0,7,3.5,3.5,0,0,1,0-7m0-1A4.5,4.5,0,1,0,9,31.5,4.5,4.5,0,0,0,4.5,27Z" />
+    </g>
+</svg>
