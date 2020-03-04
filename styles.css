@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin:400');
+
+:root {
+    --text-color: #333;
+    --background-color: #dfedf8;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text-color: #eee;
+        --background-color: #23234c;
+    }
+    
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 0.2em;
+    user-select: none;
+    background-image: url(mount.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #7fabc3;
+    transition: 0.2s;
+}
+
+#wrapper {
+    display: grid;
+    grid-template-rows: [row-start] auto [row-mid] 1fr [row-end] auto;
+    grid-template-columns: [col-start] 1fr [col-mid] 6fr [col-end] 1fr;
+}
+
+div > div {
+    background-color: var(--background-color);
+    padding: 4vmin;
+    box-shadow: 0 0.75rem 2rem hsla(220, 14%, 30%, 0.33);
+    margin: 2vw 0 2vw 0;
+}
+
+#date {
+    font-size: 6ch;
+    color: var(--text-color);
+    grid-area: row-start / col-mid;
+}
+
+#clock {
+    grid-area: row-mid / col-mid;
+    display: flex;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    height: 16vmin;
+    width: 8vmin;
+    padding: 1vmin;
+    background-color: var(--text-color);
+}
+
+#options {
+    padding: 4vmin;
+    letter-spacing: initial;
+    grid-area: row-end / col-mid;
+}
+
+#options > input[type="checkbox"] {
+    margin: 0 2vmin 0 0.5vmin; 
+}
