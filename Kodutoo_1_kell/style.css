@@ -1,0 +1,109 @@
+body{
+    background-image: url("giphy.gif");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+}
+
+#container{
+    height: 200;
+    width: 500;
+    text-align: center;
+    font-size:300% ;
+    font-family: Calibri;
+    color: black;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#day{
+    width: auto;
+    height: auto;
+    background-color: bisque;
+    background-position: center;
+    border: 2px solid purple;
+    border-radius: 15px;
+}
+#date{
+    width: auto;
+    height: auto;
+    background-color: bisque;
+    background-position: center;
+    border: 2px solid purple;
+    border-radius: 15px;
+}
+#time{
+    width: auto;
+    height: auto;
+    background-color: bisque;
+    background-position: center;
+    border: 2px solid purple;
+    border-radius: 15px;
+}
+#name{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 50%;
+    width: auto;
+    height: auto;
+    background-color: bisque;
+    background-position: center;
+    border: 2px solid purple;
+    border-radius: 5px;
+    display: flex;
+    
+
+}
+#melody1{
+    height: 30px;
+    width: 150px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    font-family: Impact;
+    font-size: large;
+    
+
+}
+#focusTime{
+    height: 30px;
+    width: 150px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    font-family: Impact;
+    font-size: large;
+    
+
+}
+#switchLanguage{
+    height: 30px;
+    width: 150px;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    font-family: Impact;
+    font-size: large;
+    
+
+}
+#repoLink{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    height: auto;
+    width: auto;
+    background-color: blanchedalmond;
+    border: 2px solid purple;
+    border-radius: 5px;
+    font-family: Impact;
+    font-size: large;
+    
+
+}
+
