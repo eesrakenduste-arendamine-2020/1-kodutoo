@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="clock.js"></script>
+    <title>Gevin Paas esimene päris oma töö</title>
+</head>
+<body>
+    <audio id="myMusic">
+        <source src="Trump.mp3" type="audio/mpeg">
+    </audio>
+    <div id="container">
+        <button onclick="hideClock()">Näita/peida kell</button>
+        <button onclick="play()" type="button">JUST</button>
+        <button onclick="pause()" type="button">DO IT</button>
+        <button id="color" onclick="randomize()">Vaheta värvi</button>
+        <div id="time">Kellaeg</div>
+        <div id="alldate">
+            <div id="weekday">Nädalapäev</div>
+            <div id="date">Kuupäev</div>
+            <div id="month">Kuu</div>
+            <div id="year">Aasta</div>
+        </div>
+        
+    </div>
+    <div id="name">
+        Gevin Genro Paas
+        <p><a href="https://github.com/ggpaas/1-kodutoo">
+            repo</a>.</p>
+    </div>
+    
+</body>
+</html>
