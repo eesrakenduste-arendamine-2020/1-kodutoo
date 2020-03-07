@@ -1,0 +1,144 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    background: #2A2B30;
+}
+
+.fullPageWrap {
+    height: 100vh;
+    background: #2A2B30;
+    width: 100%;
+    font-size: 16px;
+    text-align: right;
+}
+
+.innerWrap {
+    text-align: center;
+    padding-top: 80px;
+    color: rgb(139, 139, 139);
+}
+
+.infoSection__dof {
+    text-transform: uppercase;
+}
+
+.navSection {
+    padding-right: 5em;
+    padding-top: 30px;
+}
+
+.navSection button {
+    font-size: 14px;
+    padding: 7px 26.5px;
+    background: #2A2B30;
+    border-radius: 2px;
+    cursor: pointer;
+    border:none;
+}
+
+.navSection__left {
+    margin-right: 7px;
+}
+
+.pinkButton {
+    color: #D1AEC3;
+}
+.pinkButton:hover {
+    background:rgb(59, 60, 68);
+    transition: .5s background;
+}
+
+.blueButton {
+    color: #ADE4FF;
+}
+
+.blueButton:hover {
+    background:rgb(59, 60, 68);
+    transition: .5s background;
+}
+
+.pinkSelected {
+    background:rgb(29, 29, 29) !important;
+    border:none;
+}
+
+.blueSelected {
+    background:rgb(29, 29, 29) !important;
+    border: none;
+}
+
+button:focus {
+    outline:none;
+}
+
+.footerSection {
+    padding-right: 100px;
+    padding-top: 8em;
+    color: rgb(139, 139, 139);
+    text-align: right;
+}
+
+.box {
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    background: rgb(196, 196, 196);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+@keyframes fadeout{
+    0% {
+        opacity:1;
+        visibility:visible;
+    }
+    99% {
+        opacity:0;
+    }
+    100% {
+        opacity:0;
+        visibility: hidden;
+    }
+}
+
+.fadeout {
+    animation:fadeout 1s linear;
+    visibility:hidden;
+}
+
+@keyframes fadein{
+    0% {
+        opacity:0;
+        visibility:visible;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.fadein {
+    animation:fadein 1s linear;
+}
+
+.minus, 
+.plus {
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background .5s;
+}
+
+.minus {
+    margin-right: 13px;
+    padding: 2px 8px;
+}
+
+.plus {
+    margin-left: 13px;
+    padding: 2px 6px;
+}
+
+.minus:hover, .plus:hover{
+    background:rgb(59, 60, 68);
+}
