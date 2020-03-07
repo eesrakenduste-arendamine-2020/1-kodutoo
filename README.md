@@ -1,3 +1,12 @@
+Autor - Robin Kadakas
+Kell on liikuv, aeg, nädalapäev, ning päev/kuu/aasta keerlevad ringi, mida sai teha CSS-i kasutades, kui lohistada hiir halli kasti siis animatsioon peatub ning terve väli läheb kollaseks. Üleval paremal on värvivalik nii taustale kui ka fondile. Veebisaidil alla kerides leiab autori nime ja Githubi konto.
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+
 # 1kodutoo
 1. kodutöö Eesrakenduste arendamises.
 
