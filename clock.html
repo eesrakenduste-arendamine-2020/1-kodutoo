@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel= "stylesheet" href="style.css">
+
+    <script defer src="clock.js"></script>
+    <script async></script>
+    <title>Kell/ekraanisäästja</title>
+</head>
+<body>
+    <!--<button>Vaheta taust</button>
+    <script type="text/javascript">
+        var color = ["#222f3e", "#462f3e", "#952f3e", "#632f3e", "#232f3e", "#952f3e", "#172f3e"];
+        var i = 0;
+        document.querySelector("button").addEventListener("click", function(){
+            i = 1 < color.length ? ++i : 0;
+            document.querySelector("body").style.background = color[i]
+        })
+    </script> -->
+    <div id="container">
+        <div id="time">kellaaeg</div>
+        <div id="day">päev</div>
+        <div id="DMY">päevkuuaasta</div>
+        <!--<div id="date">kuupäev</div>-->
+        <!--<div id="month">kuu</div>
+        <div id="year">aasta</div>-->
+        <!--<div id="score">skoor</div>-->
+    </div>
+    
+    <div class="textContainer">
+        <div class="font-color">Font värv</div>
+        <div class="background-color">Taust värv</div>
+    </div> 
+
+    <!--ei pea tegema 2 eraldi funktsiooni aga alguses ühega ei töötanud-->
+    <div class="choosecolorBackground">
+        <a onclick="changecolorBackground('darkGreen')" id="darkGreen">#006400</a>
+        <a onclick="changecolorBackground('cyan')" id="cyan">#5F9EA0</a>
+        <a onclick="changecolorBackground('purple')" id="purple">#6A5ACD</a>
+        <a onclick="changecolorBackground('white')" id="white">#ffffff</a>
+        <a onclick="changecolorBackground('black')" id="black">#000000</a>
+        <a onclick="changecolorBackground('silver')" id="silver">#C0C0C0</a> 
+    </div>
+
+    <div class="choosecolorFont">
+        <b onclick="changecolorFont('yellow')" id="yellow">#ffecb3</b>
+        <b onclick="changecolorFont('red')" id="red">#cc3300</b>
+        <b onclick="changecolorFont('pink')" id="pink">#cc00ff</b>
+        <b onclick="changecolorFont('white')" id="white">#ffffff</b>
+        <b onclick="changecolorFont('black')" id="black">#000000</b>
+        <b onclick="changecolorFont('orange')" id="orange">#ff8000</b> 
+    </div>
+    
+</body>
+<p>Kella autor - Robin Kadakas - <a href="https://github.com/cadaroba/1-kodutoo">GitHub</a></p>
+</html>
