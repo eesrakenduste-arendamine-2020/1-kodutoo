@@ -44,6 +44,8 @@ html {
   justify-content: center;
   margin: 1px;
   font-size: 5vh;
+  cursor: pointer;
+  user-select: none;
 }
 
 #buttoncontainer {
@@ -51,6 +53,8 @@ html {
   flex-direction: row;
   justify-content: left;
   cursor: pointer;
+  user-select: none;
+  width: 0;
 }
 
 #backgroundbutton {
@@ -85,6 +89,7 @@ html {
 
 #time {
   font-size: 14vh;
+  cursor: pointer;
 }
 
 #weekday {

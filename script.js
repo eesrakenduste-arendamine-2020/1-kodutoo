@@ -4,7 +4,10 @@ let month = d.getMonth();
 let year = d.getFullYear();
 let date = d.getDate();
 let counter = 0;
+let datecounter = 0;
+let timecounter = 0;
 
+let fulldateContainer = document.querySelector("#container2");
 let colorbutton = document.querySelector("#changecolor");
 let backgroundbutton = document.querySelector("#changebackground");
 let dayContainer = document.querySelector("#weekday");
@@ -12,6 +15,7 @@ let time = document.querySelector("#time");
 let yearContainer = document.querySelector("#year");
 let monthContainer = document.querySelector("#month");
 let dateContainer = document.querySelector("#date");
+console.log(dateContainer);
 let days = [
   "Pühapäev",
   "Esmaspäev",
@@ -43,6 +47,9 @@ dayContainer.innerHTML = days[day];
 dateContainer.innerHTML = date;
 colorbutton.addEventListener("click", changeColor);
 backgroundbutton.addEventListener("click", changeBackground);
+fulldateContainer.addEventListener("click", changeDateFormat);
+time.addEventListener("click", changeTimeFormat);
+
 updateClock();
 
 window.setInterval(updateClock, 1000);
@@ -63,6 +70,10 @@ function updateClock() {
   if (hours < 10) {
     hours = "0" + hours;
   }
+
+  if (timecounter % 2 == 1) {
+    hours = ((hours + 11) % 12) + 1;
+  }
   time.innerHTML = hours + ":" + minutes + ":" + seconds;
 }
 
@@ -82,6 +93,17 @@ function changeBackground() {
   } else {
     document.body.style.backgroundImage = null;
   }
+}
 
-  console.log(counter);
+function changeDateFormat() {
+  datecounter++;
+  if (datecounter % 2 == 1) {
+    fulldateContainer.innerHTML = date + "." + month + "." + year;
+  } else {
+    fulldateContainer.innerHTML = date + " " + months[month] + " " + year;
+  }
+}
+
+function changeTimeFormat() {
+  timecounter++;
 }
