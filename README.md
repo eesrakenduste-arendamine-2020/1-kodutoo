@@ -9,11 +9,11 @@ Olen loonud kella veebilehe funktsioonidega järjekorras:
 Lisasain kella funktsioone kasutades eventListeneri ja function järjekorras:
 
 1.Keele vahetaja mis vahetab lehekülje keelt. English -> Korean.
-![](1-kodutoo/git1.JPG)
+![](Kodutoo_1_kell/git1.JPG)
 2.Võimalus peita mitte vajalikud nädalapäeva ja kuupäeva funktsioon.
-![](1-kodutoo/git2.JPG)
+![](Kodutoo_1_kell/git2.JPG)
 3.Võimalus vahetada kasutajal tausta ja alustada muusikat.
-![](1-kodutoo/git3.JPG)
+![](Kodutoo_1_kell/git3.JPG)
 
 Kasutatud materjal : 
 Jqueryst võetud script css töötlemiseks javascripti failides.
