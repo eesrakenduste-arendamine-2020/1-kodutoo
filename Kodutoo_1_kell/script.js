@@ -4,7 +4,8 @@ let day = d.getDay();
 let time = document.querySelector("#time");
 let dayContainer = document.querySelector("#day");
 let dateContainer = document.querySelector("#date");
-let days = ["Pühapäev", "Esmaspäev", "Teisipäev", "Kolmapäev", "Neljapäev", "Reede", "Laupäev"];
+let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+let 일 = ["일요일", "월요일", "화요일", "수요일", "목요일", "금요일", "토요일"];
 let repoContainer=document.querySelector("#repoLink");
 let musicContainer = document.querySelector("#music");
 let calenderHider=document.querySelector("#edits");
@@ -15,16 +16,15 @@ repoContainer.addEventListener("click", ()=>{
     window.location.href="https://github.com/hp355837/1-kodutoo.git";
 });
 
-
 dayContainer.innerHTML = days[day];
+
 updateClock();
 setInterval(updateClock, 1000);
 updateDate();
 document.getElementById("melody1").value = "Turn on the beat";
 document.getElementById("focusTime").value="Hide calendar";
-document.getElementById("switchLanguage").value="Kor to Eng";
-
-
+document.getElementById("switchLanguage").value="ENG to KOR";
+var calendar = "opened";
 
 function updateClock(){
     
@@ -63,7 +63,7 @@ function playTrack() {
     var audio = document.getElementById('sound');
     var elem = document.getElementById("melody1");
     if (audio.paused) {
-        if(language.value=="Kor to Eng"){
+        if(language.value=="ENG to KOR"){
             elem.value = "Turn off the beat";
         }else{
             elem.value="비트를 끄십시오";
@@ -74,7 +74,7 @@ function playTrack() {
         $('#time').css('backgroundImage', 'url("space2.gif")').css('color','red');
         $('#date').css('backgroundImage', 'url("space3.gif")').css('color','white');
     }else{
-        if(language.value=="Kor to Eng"){
+        if(language.value=="ENG to KOR"){
             elem.value = "Turn on the beat";
         }else{
             elem.value="비트를 켜십시오";
@@ -89,45 +89,81 @@ function playTrack() {
 }
 
 function hideCalender(){
-    var language =document.getElementById("switchLanguage");
-    var elem = document.getElementById("focusTime");
-    if(elem.value=="Hide calendar" || elem.value=="캘린더 숨기기"){
-        if(language.value=="Kor to Eng"){
-            elem.value="Show calendar";
+    var language = document.getElementById("switchLanguage");
+    var element = document.getElementById("focusTime");
+    if(calendar=="opened"){
+        if(language.value=="ENG to KOR"){
+            element.value="Show calendar";
         }else{
-            elem.value="캘린더 표시";
+            element.value="캘린더 표시";
         }
+
         $('#day').css('display', 'none');
         $('#date').css('display', 'none');
         $('#time').css('font-size','150%');
-    }else{
-        if(language.value=="Kor to Eng"){
-            elem.value="Hide calendar";
+        calendar="closed";
+    }
+}
+function closedCalender(){
+    var language = document.getElementById("switchLanguage");
+    var element = document.getElementById("focusTime");
+    if(calendar=="closed"){
+        if(language.value=="ENG to KOR"){
+            element.value="Hide calendar";
         }else{
-            elem.value="캘린더 숨기기";
+            element.value="캘린더 숨기기";
         }
+
         $('#day').css('display', 'unset');
         $('#date').css('display', 'unset');
         $('#time').css('font-size','100%');
+        calendar="opened";
     }
 }
+
 function switchLanguage(){
+    var audio = document.getElementById('sound');
     var elem1 = document.getElementById("melody1");
     var elem2 = document.getElementById("focusTime");
     var elem3 =document.getElementById("switchLanguage");
-    if(elem3.value=="Kor to Eng"){
-        elem1.value="비트의 차례";
-        elem2.value="캘린더 표시";
-        elem3.value="Eng to Kor";
+    if(elem3.value=="ENG to KOR"){
+
+            if(audio.paused){
+                elem1.value="비트를 켜십시오";
+            }else{
+                elem1.value="비트를 끄십시오";
+            }
+            if(calendar=="opened"){
+                elem2.value="캘린더 숨기기";
+            }else{
+                elem2.value="캘린더 표시";
+            }
+        elem3.value="KOR to ENG";
+        dayContainer.innerHTML = 일[day];
     }else{
-        elem1.value="Turn on the beat";
-        elem2.value="Show calendar";
-        elem3.value="Kor to Eng";
+        if(audio.paused){
+            elem1.value="Turn on the beat";
+        }else{
+            elem1.value="Turn off the beat";
+        }
+        if(calendar=="opened"){
+            elem2.value="Hide calendar";
+        }else{
+            elem2.value="Show calendar";
+        }
+        elem3.value="ENG to KOR";
+        dayContainer.innerHTML = days[day];
     }
 }
 languageChanger.addEventListener('click',switchLanguage);
 musicContainer.addEventListener('click',playTrack);
-calenderHider.addEventListener('click',hideCalender);
+calenderHider.addEventListener('click',()=>{
+    if(calendar=="opened"){
+        hideCalender();
+    }else{
+        closedCalender();
+    }
+});
 
 
 
