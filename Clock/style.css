@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.time-container{
+    background-color: black;
+    color: #F5025F;
+}
+#change-stuff{
+    height: 10vh;
+    width: 100vw;
+    line-height: 10vh;
+    display: inline-flex;
+    
+}
+
+.three-items{
+    height: 10vh;
+    width: 25vw;
+    cursor: pointer;
+
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 40vw;
+    margin-left: 30vw;  
+}
+
+#change-color-white{
+    background-color: white;
+    color: black;
+}
+
+#change-color-black{
+    background-color: black;
+    color: white;
+}
+
+#language-eng{
+    background-color: black;
+    color: white;
+}
+
+#language-est{
+    background-color: white;
+    color: black;
+}
+
+#all-items{
+    background-color: white;
+}
+
+#header{
+    order: 0;
+    height: 18vh;
+    line-height: 18vh;
+    background-color: white;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#time{
+    order: 1;
+    height: 18vh;
+    line-height: 18vh;
+
+}
+
+#date{
+    order: 2;
+    height: 18vh;
+    line-height: 18vh;
+
+}
+
+#year{
+    order: 3;
+    height: 18vh;
+    line-height: 18vh;
+
+}
+
+#weekday{
+    order:4;
+    height: 18vh;
+    line-height: 18vh;
+
+}
