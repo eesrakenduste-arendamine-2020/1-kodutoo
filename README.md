@@ -39,9 +39,9 @@ Kujunda kellanäide vastavalt maitsele või kindlale teemale, mahutades kella t�
 ## Veebileht
 * Gevin Genro Paasi kodutöö
 * Lehel on 3funktisooni. Üleval on 4nuppu, mida on võimalik vajutada kasutajal.
--Näita/peida kell <- seda nuppu vajutades tuleb kell nähtavale ja uuesti vajutades kaob
+- Näita/peida kell <- seda nuppu vajutades tuleb kell nähtavale ja uuesti vajutades kaob
 - JUST <- see nupp paneb tagaheli
--DO IT <- paneb heli kinni
--vaheta värvi <- vahetab kella värvi peale vajutades.
+- DO IT <- paneb heli kinni
+- vaheta värvi <- vahetab kella värvi peale vajutades.
 * lehe avades tuleb alert et oled Paasi kodulehel
 * all nurgas on repo kirjutatud ja sinna peale vajutades satud ggpaasi githubi.
