@@ -35,3 +35,13 @@ Kujunda kellanäide vastavalt maitsele või kindlale teemale, mahutades kella t�
 * Sündmuste loetelu [HTML DOM Events](http://www.w3schools.com/jsref/dom_obj_event.asp)
 * Ajal põhinevad sündmused [JavaScript Timing Events](http://www.w3schools.com/js/js_timing.asp)
 * CSSi muutmine [HTML DOM Style Object](http://www.w3schools.com/jsref/dom_obj_style.asp)
+
+## Veebileht
+* Gevin Genro Paasi kodutöö
+* Lehel on 3funktisooni. Üleval on 4nuppu, mida on võimalik vajutada kasutajal.
+-Näita/peida kell <- seda nuppu vajutades tuleb kell nähtavale ja uuesti vajutades kaob
+- JUST <- see nupp paneb tagaheli
+-DO IT <- paneb heli kinni
+-vaheta värvi <- vahetab kella värvi peale vajutades.
+* lehe avades tuleb alert et oled Paasi kodulehel
+* all nurgas on repo kirjutatud ja sinna peale vajutades satud ggpaasi githubi.
