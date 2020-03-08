@@ -7,4 +7,4 @@ Autor: Petrik Sarri
 2) Teksti peale vajutades saab selle värvi muuta
 3) Lehel saab valida tumeda reziimi
 
-![Screenshot](clock/img/Screenshot 2020-03-08 at 20.29.16.png)
+![Screenshot](https://github.com/psarri/1-kodutoo/blob/master/clock/img/Screenshot%202020-03-08%20at%2020.29.16.png)
