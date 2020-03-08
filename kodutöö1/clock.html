@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="clock.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Kell</title>
+</head>
+<body>
+    <canvas id="kell" style="display:block"></canvas>
+
+    <input type="color" value="#ffffff" id="grad1" style="display:block">
+    <button onclick="changeColor1()" class="button" id="grad01" style="display:block">Värv1</button>
+
+    <input type="color" value="#ffffff" id="grad2" style="display:block">
+    <button onclick="changeColor2()" class="button" id="grad02" style="display:block">Värv2</button>
+
+    <input type="color" value="#ffffff" id="grad3" style="display:block">
+    <button onclick="changeColor3()" class="button" id="grad03" style="display:block">Värv3</button>
+
+    <div id="container">
+        <div id="day">Päev</div>
+        <div id="date">Kuupäev</div>
+        <div id="year">Aasta</div>
+        <div id="time" style="display:none">Kellaeg</div>
+        <button id="button" class="button">Vaheta</button>
+    </div>
+    
+    <button id="inglise" class="button">English</button>
+    <button id="eesti" class="button">Eesti</button>
+
+
+
+    <a href="https://github.com/daneelm/1-kodutoo" target="_blank">Daniel Eelmaa (+ GITHUB)</a>
+
+</body>
+</html>
