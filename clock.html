@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="myclock.js"></script>
+    <title>Kell</title>
+</head>
+<body>
+<div id="container">
+    <div id="time">10:90</div>
+    <div id="date">Kuupäev</div>
+    <div id="year">Aasta</div>
+    <div id="myname">Andreas Kuuskaru</div>
+    Tekstivärv: <input type="color" id="clockFontColor" value="#FF0000" onchange="changeClockFontColor(this)"><br>
+    Taustavärv: <input type="color" id="clockColor" value="#000000" onchange="changeClockColor(this)">
+    <div class="slidecontainer">
+        Suurus:<input type="range" min="100" max="1000" value="500" id="textSize" onchange="changeClockSize(this)">
+    </div>
+</div>
+</body>
+</html>

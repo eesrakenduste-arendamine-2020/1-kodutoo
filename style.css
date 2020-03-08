@@ -1,0 +1,73 @@
+@font-face{
+    font-family:'digital-clock-font';
+    src:
+            url('digital-font.ttf');
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+
+    height: 100%;
+}
+
+div{
+    text-align: center;
+    font-size: 150%;
+    word-wrap: break-word;
+}
+
+div#time{
+    padding: 20%;
+    font-size: 100%;
+    background-color: black;
+}
+
+#container{
+    display:block;
+    height:300px;
+}
+
+#container div{
+    padding: 2%;
+}
+
+
+#time{
+
+    text-align: center;
+    order: 1;
+    background-color: transparent;
+    font-family:'digital-clock-font';
+    color: red;
+
+}
+
+#date{
+    order: 2;
+    align-self: center;
+    background-color: cornflowerblue;
+}
+
+#month{
+    order:5;
+    background-color: darkorange;
+}
+
+#year{
+    order: 6;
+    background-color: olivedrab;
+}
+
+#weekday{
+    order:4;
+    background-color: darksalmon;
+}
+
+#myname{
+    order: 7;
+    background-color: darkkhaki;
+}
