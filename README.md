@@ -14,7 +14,7 @@ Funktsionaalsus
 
 http://localhost:5555/~jankiv/Eesrakendused/clock1.html
 
-![alt text](Screenshot 2020-03-08 at 17.11.28.png)
+![alt text](https://github.com/janmortenk/1-kodutoo/blob/master/Screenshot%202020-03-08%20at%2017.11.28.png?raw=true)
 
 
 
