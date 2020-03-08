@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+
+#container{
+    color: white;
+    font-size: 3em;    
+    font-weight: 200;  
+    font-family: 'Times New Roman', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh;
+    width: 100vw;
+    background-image: url('image.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#repo{
+    color: white;
+    font-size: 0.5em;
+    background-color: transparent;
+    position: fixed;
+    border: solid;
+    cursor: pointer;
+    left: 4px;
+    top: 5px;
+    font-family: 'Times New Roman', serif;
+}
+
+#background{
+    color: white;
+    font-size: 0.5em;
+    background-color: transparent;
+    position: fixed;
+    border: solid;
+    cursor: pointer;
+    left: 4px;
+    top: 38px;
+    font-family: 'Times New Roman', serif;
+}
+
+#color{
+    color: white;
+    font-size: 0.5em;
+    background-color: transparent;
+    position: fixed;
+    border: solid;
+    cursor: pointer;
+    left: 4px;
+    top: 70px;
+    font-family: 'Times New Roman', serif;
+}
+
+#name{
+    color: white;
+    font-size: 0.5em;
+    background-color: transparent;
+    position: fixed;
+    border: none;
+    cursor: pointer;
+    right: 4px;
+    bottom: 5px;
+    font-family: 'Times New Roman', serif;
+}
+
+#time{
+    font-size: 2.5em;
+    font-weight: 80;
+}
+
+#container div{
+    padding: 1%;
+}
