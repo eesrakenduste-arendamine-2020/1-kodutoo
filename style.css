@@ -1,0 +1,189 @@
+body{
+
+    color: silver;
+
+    background-image: url('forest.jpg');
+
+    /* Taustapilt venitatakse ekraani suuruseks */
+
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+/* Paigutamiseks, kasutasin gridi ekraani jaotust */
+
+#container{    
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 1em;
+    justify-items: stretch;
+    align-items: stretch;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    grid-row: 1/7;
+
+}
+
+#container > div{
+    background:rgba(131, 131, 131, 0.137);
+    padding: 1em;
+}
+
+#time{
+    grid-column: 2/6;
+    grid-row: 3;
+    font-size: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#datediv{
+    grid-column: 2/6;
+    grid-row: 4;
+}
+
+#date{    
+    grid-column: 2/3;
+    grid-row: 4;
+    font-size: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background-color: transparent;    
+}
+
+#month{
+    grid-column: 3/5;
+    grid-row: 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5vh; 
+    background-color: transparent;    
+}
+
+#year{
+    grid-column: 5/6;
+    grid-row: 4;
+    font-size: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;     
+}
+
+#weekday{
+    grid-column: 4/6;
+    grid-row: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 6vh;   
+}
+
+#buttonDiv{
+    /*width:250px;
+    height:250px;*/
+
+    color:silver;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    background-color: transparent; 
+
+}
+
+#fontColorDiv{
+    align-items: center;
+    color:silver;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    background-color: transparent;      
+}
+
+#bgColorDiv{
+    align-items: center;
+    color:silver;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: fixed;
+    bottom: 180px;
+    right: 30px;
+    background-color: transparent; 
+}
+
+.button{
+    color: silver; 
+    background-color: transparent; 
+    border: 2px solid silver; 
+    border-radius: 5px; 
+    text-transform: uppercase;
+    height: 3vh;
+    width: 8vw;    
+}
+
+.colorbutton{
+    color: silver; 
+    background-color: transparent; 
+    border: 2px solid silver; 
+    border-radius: 5px; 
+    text-transform: uppercase;
+    height: 2vh;
+    width: 10vw;
+}
+
+#personal{
+    align-items: left;
+    justify-content:left;
+    color:silver;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: fixed;
+    bottom: 5px;
+    left: 10px;
+    background-color: transparent; 
+    height: auto;
+    font-size: 20px;
+}
+h6{
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+}
+
+::placeholder{
+    text-align: center;
+}
+
+:placeholder-shown{
+    border: 1px solid silver;
+    background: transparent;
+    height: 2em;
+}
+
+p {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.box{
+    position: absolute;
+    background-image: inherit;
+    background-attachment: fixed;
+    
+}
+
+img {
+    max-width: 50px; 
+    max-height: 50px;
+}
+
