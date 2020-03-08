@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  background-image: url("rainy.gif");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#container div{
+  padding: 1%;
+}
+
+#container{
+
+  text-align: center;
+  font-size: 250% ;
+  font-family: Arial;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+#name{
+  order: 0;
+  position: absolute;
+  top: 10px;
+  left: 5px;
+  font-size: 75%;
+  width: auto;
+  height: auto;
+  background-color: lightslategray;
+  border: 2px solid grey;
+  border-radius: 15px;
+  display: flex;
+
+}
+
+#time{
+  order: 1;
+  width: auto;
+  height: auto;
+  background-color: lightslategray;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+#date{
+  order: 2;
+  width: auto;
+  height: auto;
+  background-color: lightslategray;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+#day{
+  order: 3;
+  width: auto;
+  height: auto;
+  font-size: 80%;
+  background-color: lightslategray;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+  
+#language{
+  order: 4;
+}
+
+#calendar{
+  order: 5;
+}
+
+#music{
+  order: 6;
+}
+
+#repository{
+  order: 7;
+}
