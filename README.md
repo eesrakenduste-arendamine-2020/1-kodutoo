@@ -41,3 +41,5 @@ Kujunda kellanäide vastavalt maitsele või kindlale teemale, mahutades kella t�
 Autor: Klaus Erik Kruus
 
 Lehel on näha kellaaega, nädalapäeva ning kuupäeva. Üleval vasakul nurgas on nupp, mis viib repositooriumisse. Veel on seal nupp, mis vahetab taustapilti kolme pildi vahel ning nupp kella taustavärvi muutmiseks. 
+
+https://github.com/klauskruus/1-kodutoo/blob/master/Untitled.png
