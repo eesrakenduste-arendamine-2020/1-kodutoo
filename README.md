@@ -14,3 +14,5 @@ E) Kui kuupäev on nähtav, siis juhul, kui viia kursor kuupäevarea peale, on v
 
 
 Autor: Roger Mikomägi
+
+![ScreenShot](https://raw.github.com/rogertht/1-kodutoo/master/Screenshot.jpg)
