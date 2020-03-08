@@ -1,3 +1,8 @@
+Autor - Robin Kadakas
+Kell on liikuv, aeg, nädalapäev, ning päev/kuu/aasta keerlevad ringi, mida sai teha CSS-i kasutades, kui lohistada hiir halli kasti siis animatsioon peatub ning terve väli läheb kollaseks. Üleval paremal on värvivalik nii taustale kui ka fondile. Veebisaidil alla kerides leiab autori nime ja Githubi konto.
+
+http://www.tlu.ee/~robinkad/3tund/kodutoo1/clock.html
+
 # 1kodutoo
 1. kodutöö Eesrakenduste arendamises.
 
@@ -35,3 +40,5 @@ Kujunda kellanäide vastavalt maitsele või kindlale teemale, mahutades kella t�
 * Sündmuste loetelu [HTML DOM Events](http://www.w3schools.com/jsref/dom_obj_event.asp)
 * Ajal põhinevad sündmused [JavaScript Timing Events](http://www.w3schools.com/js/js_timing.asp)
 * CSSi muutmine [HTML DOM Style Object](http://www.w3schools.com/jsref/dom_obj_style.asp)
+
+
