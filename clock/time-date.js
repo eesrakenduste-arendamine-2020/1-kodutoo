@@ -88,3 +88,19 @@ function getRandomColor() {
   }
   return color;
 }
+
+function darkMode() {
+  document.body.style.backgroundImage = "none";
+  document.body.style.backgroundColor = "rgb(0, 0, 0)";
+  document.getElementById("container").style.backgroundColor = "black";
+}
+
+function changeSize() {
+  /*var id = document.getElementById("time");
+  var style = window.getComputedStyle(id, null).getPropertyValue("font-size");
+  var currentSize = parseInt(style);
+  currentSize++;
+  document.getElementById("time").style.fontSize = currentSize.toString();*/
+  document.getElementById("time").style.fontSize = "20em";
+
+}

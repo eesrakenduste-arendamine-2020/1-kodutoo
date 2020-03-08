@@ -36,3 +36,22 @@ div {
     margin-top: 5%;
     color: floralwhite;
 }
+
+#button {
+    text-align: center;
+}
+
+#darkMode {
+    width: 20%;
+    font-size: 2em;
+    border: 0px;
+    background-color: rgb(13, 13, 14);
+    color: rgba(109, 109, 114, 0.76);
+}
+
+#changeSize {
+    width: 25%;
+    font-size: 2em;
+    border: 0px;
+    background-color: skyblue;
+}
