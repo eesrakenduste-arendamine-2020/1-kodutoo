@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+}
+
+#container{
+    color: white;
+    font-size: 3em;    
+    font-weight: 200;  
+    font-family: 'Noto Serif TC', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    height: 100vh;
+    width: 100vw;
+    background-image: url('pilt1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#colourButton{
+    color: white;
+    font-size: 0.35em;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 4px;
+    bottom: 6px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+#repo{
+    color: white;
+    font-size: 0.35em;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 4px;
+    bottom: 6px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+#background{
+    color: white;
+    font-size: 0.35em;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    left: 4px;
+    bottom: 30px;
+    font-family: 'Noto Serif TC', serif;
+}
+
+#time{
+    font-size: 2.1em;
+    font-weight: 250;
+}
+
+#container div{
+    padding: 1%;
+}
+
