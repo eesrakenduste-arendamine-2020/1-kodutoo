@@ -13,6 +13,9 @@ Funktsionaalsused:
 * Parempoolse nupu peale vajutades käivitub iga sekundi tagant tekstivärvi vahetus
 
 
+<img src="./Screen.png" alt="screenshot" width="500" height="500">
+
+
 
 ## Olemas:
 
