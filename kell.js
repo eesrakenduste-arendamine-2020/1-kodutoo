@@ -66,21 +66,30 @@ document.getElementById("changeD").onclick = function() {
 };
 
 document.getElementById("changeN").onclick = function() {
+  var r = Math.floor((Math.random() * 256));
+  var g = Math.floor((Math.random() * 256));
+  var b = Math.floor((Math.random() * 256));
+  console.log(r,g,b);
+  var color = 'rgb'+'('+r+','+g+','+b+')';
+  console.log(color);
   document.getElementById("time").style.textShadow =
     "#FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px";
+    document.getElementById("time").style.color =
+    color;
   document.getElementById("month").style.textShadow =
     "#FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px";
+    document.getElementById("month").style.color =
+    color;
   document.getElementById("w_paevad").style.textShadow =
     "#FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px";
+    document.getElementById("w_paevad").style.color =
+    color;
 };
 
-document.getElementById("tekst").onclick = function() {
-  document.getElementById("time").style.fontFamily = 'Courier New, Courier, monospace';    
-  document.getElementById("month").style.fontFamily = 'Courier New, Courier, monospace';
-  document.getElementById("w_paevad").style.fontFamily = 'Courier New, Courier, monospace';
-};
+
+
 
 document.getElementById("asukohT").onclick = function() {
-  document.getElementById("lala").style.background =
+  document.getElementById("lala").style.background +=
     'url("img/toko_blur_1.jpg") no-repeat center center fixed';
 };
