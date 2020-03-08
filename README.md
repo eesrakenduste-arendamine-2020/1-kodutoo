@@ -1,3 +1,5 @@
+http://www.tlu.ee/~tluur/kodune1/
+
 ![](img/gitPc.jpg)
 
 Ekraanil on kell
