@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Kell</title>
+</head>
+<body>
+    <div id="container">
+        <div id="time" class="child">Kellaeg</div>
+        <div id="datediv" class="child"></div>
+            <div id="date" class="child">Kuupäev</div>
+            <div id="month" class="child">Kuu</div>
+            <div id="year" class="child">Aasta</div>
+        <div id="weekday" class="child">Nädalapäev</div>        
+    </div>
+    <div id="buttonDiv">
+        <p>Enter image url to change background</p>
+        <input type="text" id="bgchanger" placeholder="Picture url" />            
+        <input class="button" type="button" onclick="changebackground();" value="Change!" id="button" />
+    </div>
+    <div id="fontColorDiv">
+        <p>Change Font Color</p>
+        <input type="color" id="fontcolor" value="#ff0000" class="colorbutton">                 
+        <input class="button" type="button" onclick="changefontcolor();" value="Change!" id="button"/>
+    </div>
+    <div id="bgColorDiv">
+        <p>Change Div Background Color</p>
+        <input type="color" id="bgcolor" value="#ff0000" class="colorbutton">                 
+        <input class="button" type="button" onclick="changebgcolor();" value="Change!" id="button"/>
+    </div>
+    <div id= "personal">
+        
+        <a href="https://github.com/iljamog/Eesrakenduste-arendamine" id="github-logo"  ><img src="github.png" /></a>
+        <h6>Ilja Mogilnõi </h6>
+        <h6>greeny.cs.tlu.ee/~iljamog/public_html/FrEnd/kodune1/ </h6>
+    </div>
+    
+    
+</body>
+</html>
