@@ -2,8 +2,8 @@
 Olen teinud eesrakenduste arendamise esimest kodutööd. Tehtud on rakendus, mis näitab kella, kuupäeva ning aastat.
 
 ## Autor: Dmitri Vassiltsov
-*[Ekraanitõmmis kellast](https://i.imgur.com/vTuTJbk.png)
-*[Kell](https://tlu.ee/~netrian/1-kodutoo/clock.html)
+* [Ekraanitõmmis kellast](https://i.imgur.com/vTuTJbk.png)
+* [Kell](https://tlu.ee/~netrian/1-kodutoo/clock.html)
 
 ## Funktsionaalsus
 
