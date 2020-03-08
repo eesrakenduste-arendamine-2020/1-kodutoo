@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    font-size: 3em;
+    background-color: rgb(102, 96, 96);
+
+}
+
+div{
+    text-align: center;
+    color: rgb(196, 173, 173);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+#time{
+    align-self: center;
+    order: 5;
+}
+
+#weekday{
+    align-self: center;
+    order: 5;
+}
+
+#tate{
+    align-self: center;
+    order: 5;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: green;
+  }
