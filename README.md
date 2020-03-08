@@ -1,7 +1,9 @@
 # 1kodutoo
 1. kodutöö Eesrakenduste arendamises.
 
-MIHKEL VAHER
+
+
+# MIHKEL VAHER
 
 
 Funktsionaalsused: 
