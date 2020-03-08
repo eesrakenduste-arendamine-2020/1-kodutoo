@@ -1,0 +1,71 @@
+body {
+
+    font-size: 2.5em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+#myName {
+    font-size: smaller;
+    color: darkgray;
+}
+
+#gitHubLink {
+    font-size: smaller;
+    color: darkgray;
+}
+
+
+#date {
+    text-align: left;
+}
+
+#month {
+    text-align: left;
+}
+
+#year {
+    text-align: left;
+}
+
+#button1,#button2,#clock1,#clock2,#hideOthers{
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+}
+
+#button1:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+
+#button2:hover{
+    background-color: lightgray;
+    color: whitesmoke;
+}
+
+#clock1:hover,#clock2:hover,#hideOthers:hover{
+    background-color: lightgray;
+    color: whitesmoke;
+}
