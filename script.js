@@ -1,3 +1,4 @@
+
 let d = new Date();
 let day = d.getDay();
 let month = d.getMonth();
@@ -14,8 +15,6 @@ let dateConatiner = document.querySelector("#date");
 
 let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 let months = ['Januaty', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-let paevad = ['Pühapäev', 'Esmaspäev', 'Teisipäev', 'Kolmapäev', 'Neljapäev', 'Reede', 'Laupäev'];
-let kuud = ['Jaanuar', 'Veebruar', 'Märts', 'Aprill', 'Mai', 'Juuni', 'Juuli', 'August', 'September', 'Oktoober', 'November', 'Detsember'];
 
 dayContainer.innerHTML = days[day];
 yearContainer.innerHTML = year;
@@ -28,9 +27,12 @@ if(date==1){
 } else{
     dateConatiner.innerHTML = date + 'th of ' + months[month];
 }
-window.setInterval(updateClock, 1000);
+//window.setInterval(updateClock, 1000);
 
-function updateClock(){
+EUButton = document.querySelector("#EUFormat");
+EUButton.addEventListener('click', showEUTime);
+
+function showEUTime(){
     d = new Date();
     let hours = d.getHours();
     let minutes = d.getMinutes();
@@ -45,6 +47,8 @@ function updateClock(){
         seconds = '0'+seconds;
     }
     time.innerHTML = hours + ':' + minutes + ':' + seconds;
+
+    setTimeout(showEUTime, 1000);
 }
 
 button = document.querySelector("#changeThemeButton");
@@ -60,15 +64,49 @@ function changeTheme(){
     if (index === bgColorList.length) index=0
 }
 
-function timedTheme(){
-    var hours = d.getHours();
-    if(hours > 19 || hours < 6){
-        document.body.style.backgroundColor = bgColorList[0];
-        document.body.style.color = textColorList[0];
-    } else {
-        document.body.style.backgroundColor = bgColorList[1];
-        document.body.style.color = textColorList[1];
+USButton = document.querySelector("#USFormat");
+USButton.addEventListener('click', showUSTime);
+
+function showUSTime(){
+    d = new Date();
+    let hours = d.getHours(); 
+    let minutes = d.getMinutes();
+    let seconds = d.getSeconds();
+    let session = "AM";
+    
+    if(hours == 0){
+        hours = 12;
     }
+    
+    if(hours > 12){
+        hours = hours - 12;
+        session = "PM";
+    }
+    
+    if(hours<10){
+        hours = '0'+hours;
+    }
+    if(minutes<10){
+        minutes = '0'+minutes;
+    }
+    if(seconds<10){
+        seconds = '0'+seconds;
+    }    
+    time.innerHTML = hours + ':' + minutes + ':' + seconds + ' ' + session;
+    
+    setTimeout(showUSTime, 1000);
+    
+}
+
+randomizeCol = document.querySelector('#container');
+randomizeCol.addEventListener('click', randomCol);
+
+function randomCol(){
+    const r = Math.round(Math.random()*255);
+    const g = Math.round(Math.random()*255);
+    const b = Math.round(Math.random()*255);
+
+    document.body.style.color = 'rgb('+r+','+g+','+b+')';
 }
 
 
