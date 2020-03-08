@@ -1,0 +1,118 @@
+body{
+    margin:0;
+}
+
+#container{
+    font-size: 200%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(139, 190, 247);
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color:black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("pics/mountains.jpg");
+    background-position: center;
+}
+
+#time{
+    padding: 10px;
+    text-shadow: 4px 4px 4px gray;
+    font-size: 205%;
+}
+
+#sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: darkslategrey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+#sidenav a:hover {
+    color: lightskyblue;
+    cursor: pointer;
+}
+
+#sidenav .close {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#button{
+    font-size:30px;
+    cursor:pointer;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    color: lightskyblue;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    padding: 55px;
+}
+
+#color{
+    margin: 7px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 0.9em;
+    height: 30px;
+}
+
+#background{
+    margin: 7px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 0.9em;
+    height: 30px;
+}
+
+#repo{
+    margin: 7px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 0.9em;
+    height: 30px;
+}
+
+#repo:hover{
+    background-color:gainsboro;
+    cursor:pointer;
+}
+
+#name{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: medium;
+    font-style: italic;
+    color: azure;
+}
+
+#background:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+}
+
+#day:hover{
+    cursor: pointer;
+}
+
+#color:hover{
+    cursor: pointer;
+    background-color: gainsboro;
+}
+  
