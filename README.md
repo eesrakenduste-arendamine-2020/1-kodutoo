@@ -35,3 +35,11 @@ Kujunda kellanäide vastavalt maitsele või kindlale teemale, mahutades kella t�
 * Sündmuste loetelu [HTML DOM Events](http://www.w3schools.com/jsref/dom_obj_event.asp)
 * Ajal põhinevad sündmused [JavaScript Timing Events](http://www.w3schools.com/js/js_timing.asp)
 * CSSi muutmine [HTML DOM Style Object](http://www.w3schools.com/jsref/dom_obj_style.asp)
+
+## Veebileht
+
+*Nina Katarina Weiss kodutöö
+*lehel on kolm funktsioone:
+* -klahvide vajutades muutub kella taustavärv
+* -hiirt klickides muutub tekstivärv
+* -hiire liigutades muutub kella font 
