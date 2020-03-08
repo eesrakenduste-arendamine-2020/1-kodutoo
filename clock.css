@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+	background-color: white;
+}
+
+div{
+    text-align: center;
+}
+
+@font-face{
+	font-family: Digital;
+	src: url(DS-DIGIT.TTF)
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    justify-content: center;
+}
+
+#container2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+
+
+#time, #date, #month, #year{
+	font-family: Digital;
+	color: black;
+	font-size: 3em;
+}
+
+#time:hover, #date:hover, #month:hover, #year:hover{
+	font-size: 5em;
+}
