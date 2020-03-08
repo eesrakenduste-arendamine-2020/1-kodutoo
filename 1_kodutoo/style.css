@@ -143,7 +143,7 @@ div{
 .kell .number10 { --rotation: 300deg;}
 .kell .number11 { --rotation: 330deg;}
 
-.kell .seier{
+.kell .hand{
     --rotation: 0;
     position: absolute;
     bottom: 50%;
@@ -170,19 +170,19 @@ div{
     border-radius: 50%;
 }
 
-.kell .seier.second {
+.kell .hand.second {
     width: 4px;
     height: 45%;
     background-color: red;
 }
 
-.kell .seier.minute {
+.kell .hand.minute {
     width: 7px;
     height: 42%;
     background-color: black;
 }
 
-.kell .seier.hour {
+.kell .hand.hour {
     width: 11px;
     height: 35%;
     background-color: black;
