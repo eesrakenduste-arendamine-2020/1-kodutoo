@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="before_html.js"></script>
+
+        <title>LAUAKELL</title>       
+    </head>
+
+    <body onload="page_onload()">
+
+            <div class="king-section" 
+             onclick="make_the_menu_visible()">
+
+                <div class="menu-container top-right">
+                    <div 
+                        id          ="menu" 
+                        class       ="menu-elements" 
+                        onmouseover ="on_mouse_over_the_menu()" 
+                        onmouseout  ="on_mouse_out()">
+    
+                        <a onclick="toggle_date_section_visibility()">
+                        Lülita kuupäeva</a></br>
+    
+                        <a onclick="toggle_seconds_visibility()">
+                        Lülita sekundeid</a></br>
+    
+                        <a onclick="change_clock_numbers_color('blue')">
+                        Numbrid siniseks</a></br>
+    
+                        <a onclick="change_clock_numbers_color('red')">
+                        Numbrid punaseks</a></br>
+    
+                        <a onclick="change_clock_numbers_color('white')">
+                        Numbrid valgeks</a></br>                    
+    
+                    </div>
+                </div>
+
+                <div class="content">
+    
+                    <div 
+                        id="clock_numbers"
+                        class="clock free-space">
+
+                        24:30
+                    </div>
+                    </br>
+                    <div
+                        id="date_section"
+                        class="date">
+
+                        Javascript on välja lülitatud.
+                    </div>
+    
+                    <div class="links bottom-right">
+                        <a href="https://github.com/rogertht/1-kodutoo">GITHUB</a>
+                         Roger Mikomägi
+                    </div>
+                </div>
+            </div>
+
+        <script type="text/javascript" src="after_html.js"></script>
+        
+    </body>
+</html>
