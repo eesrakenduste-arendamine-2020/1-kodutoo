@@ -35,3 +35,11 @@ Kujunda kellanäide vastavalt maitsele või kindlale teemale, mahutades kella t�
 * Sündmuste loetelu [HTML DOM Events](http://www.w3schools.com/jsref/dom_obj_event.asp)
 * Ajal põhinevad sündmused [JavaScript Timing Events](http://www.w3schools.com/js/js_timing.asp)
 * CSSi muutmine [HTML DOM Style Object](http://www.w3schools.com/jsref/dom_obj_style.asp)
+
+
+
+Autor: Klaus Erik Kruus
+
+Lehel on näha kellaaega, nädalapäeva ning kuupäeva. Üleval vasakul nurgas on nupp, mis viib repositooriumisse. Veel on seal nupp, mis vahetab taustapilti kolme pildi vahel ning nupp kella taustavärvi muutmiseks. 
+
+https://github.com/klauskruus/1-kodutoo/blob/master/Untitled.png
