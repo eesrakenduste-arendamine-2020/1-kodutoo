@@ -1,4 +1,4 @@
-![Pilt kellast](1_kodutoo/pilt.png)
+![Pilt kellast](pilt.png)
 
 Teostaja: Henri Mägi
 
