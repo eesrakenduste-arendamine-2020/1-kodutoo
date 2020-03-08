@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="icon" href="thumbnail.png">
+    <title>Kell | Kenet Paurmann</title>
+</head>
+<body>
+    <audio src="song.mp3" id="music"></audio>
+    <div class="container">
+
+        <div class="box">
+            <div class="content">
+                <h3>Ticking Date</h3>
+            </div>
+            <div class="time" id="time">Time:</div>
+            <div class="day" id="day">Day:</div>
+            <div class="date" id="date">Date:</div>
+            <div class="month" id="month">Month:</div>
+            <div class="year" id="year">Year:</div>
+            <div class="creator" id="creator">Creator: Kenet Paurmann</div>
+        </div>
+
+        <div class="box">
+            <div class="content">
+                <h3>Media Links</h3>
+                <div class="buttons">
+                    <a id="facebook" onclick="facebook();">Facebook</a>
+                    <a id="instagram" onclick="instagram();">Instagram</a>
+                    <a id="twitter" onclick="twitter();">Twitter</a>
+                    <a id="repository" onclick="repository();">Repository</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="box">
+            <div class="content" id="playSong">
+                <h3>Lo-fi Song:</h3>
+                <a id="playButton" onclick="playMusic();">Play</a>
+                <a id="pauseButton" onclick="stopMusic();">Pause</a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+</html>
