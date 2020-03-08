@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: url(1.jpg) no-repeat center top; 
+}
+
+div{
+    display: flex;
+    height: 3vh;
+    justify-content: center;
+    margin: 10px;
+}
+
+#container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    bottom: 0; 
+}
+
+
+
+#day{
+    order: 1;
+    font-size: 1.5em;
+    color: blueviolet;
+    align-self: center;
+    background-color: azure;
+    border-radius: 2cm;
+    border-color: white;
+    border-style: solid;
+    width: 10vw;
+}
+
+#date{
+    order: 2;
+    font-size: 1.5em;
+    color: chartreuse;
+    background-color: azure;
+    border-radius: 2cm;
+    border-color: white;
+    border-style: solid;
+    width: 10vw;
+}
+
+
+#year{
+    order: 3;
+    font-size: 1.5em;
+    color: aquamarine;
+    background-color: azure;
+    border-radius: 2cm;
+    border-color: white;
+    border-style: solid;
+    width: 5vw;
+}
+
+#time{
+    order: 4;
+    font-size: 1.5em;
+    color: aquamarine;
+    background-color: azure;
+    border-radius: 2cm;
+    border-color: white;
+    border-style: solid;
+    width: 5vw;
+
+}
+
+#kell{
+    position: fixed;
+    top: 10%;
+    left: 50%;
+}
+
+#kell:hover{
+    position: fixed;
+    top: 10%;
+    left: 45%;
+    width: 15cm;
+    height: 10cm;
+}
+
+button{
+    background-color: coral;
+    color: yellow;
+}
+
+#inglise{
+    position: fixed;
+    left: 94%;
+    top: 1%;
+    padding: 1%;
+}
+
+#eesti{
+    position: fixed;
+    left: 94%;
+    top: 8%;
+    padding: 1%;
+}
