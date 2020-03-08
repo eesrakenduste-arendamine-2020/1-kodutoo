@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-image: url(img/pexels-photo-719609.jpeg);
+}
+
+div {
+    text-align: center;
+}
+
+#background-img {
+    width: 100%;
+    height: auto;
+}
+
+#container {   
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    background-color: rgba(100, 255, 203, 0.6);
+}
+
+#time {
+    width: 100%;
+    font-size: 10em;
+    margin-top: 20%;
+    color: bisque;
+}
+
+#date, #weekday {
+    font-size: 4em;
+    color: firebrick;
+}
+
+#year {
+    font-size: 3em;
+    margin-top: 5%;
+    color: floralwhite;
+}
+
+#button {
+    text-align: center;
+}
+
+#darkMode {
+    width: 20%;
+    font-size: 2em;
+    border: 0px;
+    background-color: rgb(13, 13, 14);
+    color: rgba(109, 109, 114, 0.76);
+}
+
+#changeSize {
+    width: 25%;
+    font-size: 2em;
+    border: 0px;
+    background-color: skyblue;
+}
