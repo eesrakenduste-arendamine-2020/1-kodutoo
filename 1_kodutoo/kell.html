@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <title>Kell</title>
+</head>
+<body>
+    <div id ="aeg" class= "aeg">
+    <div id ="kell" class= "kell">
+        <div class = "seier hour" data-hour-seier></div>
+        <div class = "seier minute" data-minute-seier></div>
+        <div class = "seier second" data-second-seier> </div>
+        <div class="number number1">1</div>
+        <div class="number number2">2</div>
+        <div class="number number3">3</div>
+        <div class="number number4">4</div>
+        <div class="number number5">5</div>
+        <div class="number number6">6</div>
+        <div class="number number7">7</div>
+        <div class="number number8">8</div>
+        <div class="number number9">9</div>
+        <div class="number number10">10</div>
+        <div class="number number11">11</div>
+        <div class="number number12">12</div>
+    </div>
+
+    <div id="container">
+        <div id="time">Kellaeg</div>
+        <div id="date">Kuupäev</div>
+        <div id="month">Kuu</div>
+        <div id="year">Aasta</div>
+        <div id="weekday">Nädalapäev</div>
+    </div>
+
+	<div id="container2">
+        <button id ="changeColorButton">Muuda kella värvi</button>
+    </div>
+
+    <div id="container3">
+        <button id ="changeTextButton">Muuda teksti värvi</button>
+    </div>
+
+    </div>
+
+    <div id="heli">
+        <audio id="muusika" controls>
+          <source src="one_more_time.mp3">
+        </audio>
+    </div>
+
+    <div id="link">
+        <p>Henri Mägi repo</p>
+        <button onclick="myLink()">Link repositooriumi</button>
+    </div>
+
+    <div id="suurus" class = suurus">
+        <img id="plustext" alt="Suurenda teksti suurust" src="up-arrow.png" onclick="resizeText(1)" />
+        <img id="minustext" alt="Vähenda teksti suurust" src="down-arrow.png" onclick="resizeText(-1)" />
+    </div>
+
+</body>
+</html>

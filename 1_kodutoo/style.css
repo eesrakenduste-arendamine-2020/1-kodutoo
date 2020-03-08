@@ -1,0 +1,189 @@
+body {
+    background: linear-gradient(to right, rgb(255, 251, 0) , blue);
+    display: flex;
+    font-size: 2.5em;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+div{
+    text-align: center;
+}
+#aeg{
+    flex-direction: column;
+}
+
+#container{  
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    position: absolute; 
+    bottom: 0px;
+    left: 0px;
+}
+#container div{
+    padding:2%;
+    display:inline-block;
+}
+
+#heli {
+    position: absolute;
+    top: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+    
+#link {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+
+#plustext {
+    position: absolute;
+    right: 40px;
+    bottom: 200px;
+}
+
+#minustext {
+    position: absolute;
+    right: 40px;
+    bottom: 100px;
+}
+
+#changeColorButton {
+    background: rgb(201, 127, 59);
+    color: rgb(238, 245, 242);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: absolute;
+    border: 2px solid black;
+    font-size: 18px;
+    top: 0px;
+    left: 0px;
+    width: 20%;
+    height: 5%;
+}
+
+#changeTextButton {
+    background: rgb(38, 155, 44);
+    color: rgb(238, 245, 242);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: absolute;
+    border: 2px solid black;
+    font-size: 18px;
+    top: 0px;
+    right: 0px;
+    width: 20%;
+    height: 5%;
+}
+
+#time{
+    order: 5;
+    align-self: flex-end;
+    background-color: bisque;
+}
+
+#date{
+    order: 4;
+    align-self: flex-start;
+    background-color: cadetblue;
+}
+#month{
+    order: 2;
+    background-color: yellowgreen;
+}
+#year{
+    order: 1;
+    background-color: violet;
+}
+#weekday{
+    order:3;
+    background-color: olive;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.kell {
+    width: 450px;
+    height: 450px;
+    background-color: beige;
+    border-radius: 50%;
+    border: 4px solid black;
+    position: relative;
+}
+
+.kell .number {
+    --rotation: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transform: rotate(var(--rotation));
+    font-size: 2.5rem;
+}
+
+.kell .number1 { --rotation: 30deg;}
+.kell .number2 { --rotation: 60deg;}
+.kell .number3 { --rotation: 90deg;}
+.kell .number4 { --rotation: 120deg;}
+.kell .number5 { --rotation: 150deg;}
+.kell .number6 { --rotation: 180deg;}
+.kell .number7 { --rotation: 210deg;}
+.kell .number8 { --rotation: 240deg;}
+.kell .number9 { --rotation: 270deg;}
+.kell .number10 { --rotation: 300deg;}
+.kell .number11 { --rotation: 330deg;}
+
+.kell .seier{
+    --rotation: 0;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    background-color: black;
+    border: 1px solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transform-origin: bottom;
+    z-index: 10;
+    transform: translate(-50%) rotate(calc(var(--rotation) * 1deg));
+}
+
+.kell::after {
+    content: '';
+    position: absolute;
+    background-color: black;
+    z-index: 11;
+    width: 15px;
+    height: 15px;
+    top: 50%;
+    left: 50%;
+    transform:  translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.kell .seier.second {
+    width: 4px;
+    height: 45%;
+    background-color: red;
+}
+
+.kell .seier.minute {
+    width: 7px;
+    height: 42%;
+    background-color: black;
+}
+
+.kell .seier.hour {
+    width: 11px;
+    height: 35%;
+    background-color: black;
+}
