@@ -30,8 +30,15 @@ html {
   z-index: 1;
 }
 
+#nimi {
+  color: white;
+  margin-top: 0px;
+  font-size: 2vh;
+}
+
 #container div {
   padding: 1%;
+  user-select: none;
 }
 
 #container2 div {

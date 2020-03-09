@@ -5,6 +5,8 @@
 
 <h2>Funktsionaalsus</h2>
 
+Nuppudel on hoverimisel fade efekt, mis muudab borderi ja nupusisest teksti värvi
+
 "Change color" nupp muudab kuupäeva ja kellaaja tekstivärvi
 
 "Change background" vahetab taustapilti 2 erineva vahel
