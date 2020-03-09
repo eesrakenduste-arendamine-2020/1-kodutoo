@@ -1,0 +1,144 @@
+body {
+    background: white;
+}
+
+.kõik {
+    color:black;
+    font-family: monospace;
+    font-size: 200%;
+    top: 10%;
+}
+
+
+.Kalender {
+    position: absolute;
+    /*border: 1px solid black;*/
+    top: 30%;
+    right: 40%;
+    font-size: 200%;
+    
+}
+
+#Nimi {
+    position: absolute;
+    bottom: 5%;
+    right: 1%;
+}
+
+#Repositoorium {
+    position: absolute;
+    right: 1%;
+    bottom: 1%;
+}
+
+
+/*Tausta värv osa*/
+
+#TaustVärv {
+    position: absolute;
+    top: 60%;
+    right: 1%;
+    font-size: 100%;
+    border: 3px solid rgb(123, 231, 213);
+}
+
+#PunaneTaust {
+    position: absolute;
+    top: 30%;
+    right: 1%;
+    font-size: 100%;
+    border: 3px solid rgb(255, 0, 0);
+}
+
+#SinineTaust {
+    position: absolute;
+    top: 40%;
+    right: 1%;
+    font-size: 100%;
+    border: 3px solid rgb(0, 0, 255);
+}
+
+#RohelineTaust {
+    position: absolute;
+    top: 50%;
+    right: 1%;
+    font-size: 100%;
+    border: 3px solid rgb(0, 255, 0);
+}
+
+#ValgeTaust {
+    position: absolute;
+    top: 70%;
+    right: 1%;
+    font-size: 100%;
+    border: 3px solid rgb(194, 194, 194);
+}
+
+#tekstTaust {
+    position: absolute;
+    top: 20%;
+    right: 1%;
+}
+
+
+
+
+
+
+
+
+
+/*Numbrite värvid osa*/
+
+#JuhuslikNumber {
+    position: absolute;
+    top: 60%;
+
+    font-size: 100%;
+    border: 3px solid rgb(113, 131, 67);
+}
+
+#PunaneNumber {
+    position: absolute;
+    top: 30%;
+    font-size: 100%;
+    border: 3px solid rgb(255, 0, 0);
+}
+
+#SinineNumber {
+    position: absolute;
+    top: 40%;
+    font-size: 100%;
+    border: 3px solid rgb(0, 0, 255);
+}
+
+#RohelineNumber {
+    position: absolute;
+    top:50%;
+    font-size: 100%;
+    border: 3px solid rgb(0, 255, 0);
+}
+
+#MustNumber {
+    position: absolute;
+    top: 70%;
+    font-size: 100%;
+    border: 3px solid rgb(0, 0, 0);
+}
+
+#tekstNumb {
+    position: absolute;
+    top: 20%;
+}
+
+
+
+/*FontSize nupp*/
+
+#FontSize {
+    position: absolute;
+    font-size: 100%;
+    top: 80%;
+    left: 40%;
+}
+
