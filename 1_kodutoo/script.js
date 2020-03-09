@@ -109,6 +109,6 @@ function setRotation(element, rotationRatio) {
 
 function myLink() {
     var str = "Repositooriumi link";
-    var result = str.link("https://www.delfi.ee");
+    var result = str.link("https://github.com/henrimag/1-kodutoo/tree/master/1_kodutoo");
     document.getElementById("link").innerHTML = result;
   }
