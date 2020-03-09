@@ -41,4 +41,3 @@ Kujunda kellanäide vastavalt maitsele või kindlale teemale, mahutades kella t�
 * Autor: Raner Rebane
 * Tegin 5 lihtsamat funktsiooni ja event listeneri proovisin ka tööle saada.
 * Play music mängib muusikafaili, pause music peatab muusika. Change font muudab kella teiseks fondiks ning color muudab värvi. Reset font funktsioon muudab tagasi algupäraseks fondiks ja värviks.
-* 
