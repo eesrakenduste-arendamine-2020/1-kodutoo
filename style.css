@@ -21,6 +21,7 @@ html {
   position: fixed;
   text-shadow: black;
   text-align: center;
+  align-items: center;
 }
 
 #icons {
@@ -34,6 +35,7 @@ html {
   color: white;
   margin-top: 0px;
   font-size: 2vh;
+  font-family: Impact, Charcoal, sans-serif;
 }
 
 #container div {
@@ -98,6 +100,7 @@ html {
 #time {
   font-size: 14vh;
   cursor: pointer;
+  display: flex;
 }
 
 #weekday {

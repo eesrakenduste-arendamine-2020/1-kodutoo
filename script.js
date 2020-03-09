@@ -15,7 +15,6 @@ let time = document.querySelector("#time");
 let yearContainer = document.querySelector("#year");
 let monthContainer = document.querySelector("#month");
 let dateContainer = document.querySelector("#date");
-console.log(dateContainer);
 let days = [
   "Pühapäev",
   "Esmaspäev",
@@ -41,10 +40,8 @@ let months = [
   "Detsember"
 ];
 
-yearContainer.innerHTML = year;
-monthContainer.innerHTML = months[month];
+fulldateContainer.innerHTML = date + " " + months[month] + " " + year;
 dayContainer.innerHTML = days[day];
-dateContainer.innerHTML = date;
 colorbutton.addEventListener("click", changeColor);
 backgroundbutton.addEventListener("click", changeBackground);
 fulldateContainer.addEventListener("click", changeDateFormat);
