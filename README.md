@@ -7,7 +7,7 @@ Kodutöö eesrakenduste arendamises
 
 ## Funktsionaalsus
 
-Projekt näitab kella ja kuupäeva, koos nime ning nuppudega millega on võimalik näidata Github linki, peita Github link ja muuta kuupäev ingliskeelseks
+Projekt näitab kella ja kuupäeva, koos nime ning nuppudega millega on võimalik näidata Github linki, peita Github link ja muuta kuupäev ingliskeelseks. Taust ka muudab sujuvalt värve.
 
 ## Autor
 
