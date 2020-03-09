@@ -28,6 +28,7 @@ html {
   position: absolute;
   bottom: 0;
   left: 0;
+  margin-left: 1px;
   z-index: 1;
 }
 
@@ -36,6 +37,7 @@ html {
   margin-top: 0px;
   font-size: 2vh;
   font-family: Impact, Charcoal, sans-serif;
+  margin-bottom: 0px;
 }
 
 #container div {

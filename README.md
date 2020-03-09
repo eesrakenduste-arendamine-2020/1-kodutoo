@@ -1,7 +1,7 @@
 <h1> Autor: <b>Marten Jürgens</b> </h1>
 
-![Dark](https://i.imgur.com/fACJ6SO.png)
-![Light](https://i.imgur.com/h9TzLug.png)
+![Dark](https://i.imgur.com/1rj3RWk.png)
+![Light](https://i.imgur.com/5a0D63y.png)
 
 <h2>Funktsionaalsus</h2>
 
