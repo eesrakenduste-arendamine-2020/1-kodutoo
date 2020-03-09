@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <link rel="stylesheet" href="clock.css">
+    <script type="text/javascript" src="clock.js"></script>
+</head>
+<body onLoad="renderTime()">
+<audio id="muss" controls src="muss.mp3" type="audio/mpeg">Kahjuks teie veebilehitseja ei toeta HTML5 audio elementi</audio>
+<div id="container">
+    <a href="https://github.com/Raimooo/1-kodutoo">Repo</a>
+    <div id="name">Raimo Pindus</div>
+    <div id="ClockDisplay" class = "clock"></div>
+    <button id="changeColor">Muuda värvi</button>
+        <script type="text/javascript">
+            var color = ["#222f3e","#f368e0","#ee5253","#0abde3","#10ac84","#5f27cd"];
+            var i = 0;
+            document.querySelector("button").addEventListener("click", function(){
+                i = 1 < color.length ? ++i : 0;
+                document.querySelector("body").style.background = color[i]
+            })
+        </script>
+
+<div id="kylasta">
+    <a href="http://www.tlu.ee/~raimooo/Veeb%20ja%20Meedia/" >Pealehele!</a>
+</div>
+</div>
+</body>
+</html>
