@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  background-image: url("https://www.ecopetit.cat/wpic/mpic/1-16867_preview-wallpaper-new-york-usa-night-skyscrapers-new.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #999;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  color: white;
+  position: fixed;
+  text-shadow: black;
+  text-align: center;
+  align-items: center;
+}
+
+#icons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-left: 1px;
+  z-index: 1;
+}
+
+#nimi {
+  color: white;
+  margin-top: 0px;
+  font-size: 2vh;
+  font-family: Impact, Charcoal, sans-serif;
+  margin-bottom: 0px;
+}
+
+#container div {
+  padding: 1%;
+  user-select: none;
+}
+
+#container2 div {
+  padding: 0.3%;
+}
+
+#container2 {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1px;
+  font-size: 5vh;
+  cursor: pointer;
+  user-select: none;
+}
+
+#buttoncontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  cursor: pointer;
+  user-select: none;
+  width: 0;
+}
+
+#backgroundbutton {
+  padding-left: 5px;
+}
+
+.fadebutton {
+  display: inline-block;
+  width: 12vw;
+  height: 2vh;
+  padding: 8px;
+  color: #fff;
+  border: 2px solid;
+  border-color: white;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  transition: border-color 0.4s ease-out;
+  transition: color 0.4s ease-out;
+  font-size: 2vh;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.fadebutton:hover {
+  color: #66d8ed;
+  border-color: #66d8ed;
+  transition: border-color 0.4s ease-in;
+}
+
+.fadebutton:hover * {
+  transition: color 0.4s ease-in;
+}
+
+#time {
+  font-size: 14vh;
+  cursor: pointer;
+  display: flex;
+}
+
+#weekday {
+  font-size: 5vh;
+}
