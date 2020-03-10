@@ -4,3 +4,5 @@
 3. Nupu vajutusega on võimalik lehe fonti suurendada.<br/>
 Lisaks on lehel oma taustapilt ja automaatselt mängib taustal muusika. Need olid inspireerutd hiljutisest Eesti Vabariigi aastapäevast.
 ![Pilt tehtud leheküljest](/kellvalmis.jpg)
+
+http://lin2.tlu.ee/~vihmaru/EA/kodu/kell.html
