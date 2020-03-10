@@ -1,0 +1,94 @@
+body{
+    width: auto;
+    height: auto;
+    align-content: center;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 30px;
+}
+
+#needITT{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#needIT{
+    margin: auto;
+    background-color: red;
+    width: 20%;
+    height: 30px;
+
+}
+
+#TimeDate{
+    margin: auto;
+    text-align: center;
+    background:rgba(206, 207, 208, 0.5);
+    border: solid
+}
+
+#date{
+    margin: auto;
+    text-align: center;
+    width: auto;
+    font-size: 4em;
+}
+
+#time{
+    text-align: center;
+    width: auto;
+    font-size: 10em;
+    font-weight: bold;
+}
+
+#buttons{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#asio{
+    width: 104px;
+    height: 104px;
+    border-radius: 25px;
+    background-image: url("asio.png");
+}
+
+#facebook{
+    width: 104px;
+    height: 104px;
+    border-radius: 25px;
+    background-image: url("fb-small-koopia.png");
+}
+
+#gmail{
+    width: 104px;
+    height: 104px;
+    border-radius: 25px;
+    background-image: url("gmail.png");
+}
+
+#drive{
+    width: 104px;
+    height: 104px;
+    border-radius: 25px;
+    background-image: url("drive.png");
+}
+
+#ois{
+    width: 104px;
+    height: 104px;
+    border-radius: 25px;
+    background-image: url("ois2.png");
+}
+
+#search{
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+}
+
+#name{
+    margin: auto;
+    
+}
