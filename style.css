@@ -1,0 +1,18 @@
+body {
+    font-family: "Calibri";
+    margin-top: 120px;
+    text-align: center;
+    color: white;
+}
+
+.clock {
+    font-weight: 160;
+    font-size: 90px;
+    margin: 50px;
+}
+
+.Calendar{
+    font-weight: 100;
+    font-size: 50px;
+    margin: 50px;
+}
