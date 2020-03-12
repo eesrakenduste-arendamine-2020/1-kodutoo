@@ -35,3 +35,6 @@ Kujunda kellanäide vastavalt maitsele või kindlale teemale, mahutades kella t�
 * Sündmuste loetelu [HTML DOM Events](http://www.w3schools.com/jsref/dom_obj_event.asp)
 * Ajal põhinevad sündmused [JavaScript Timing Events](http://www.w3schools.com/js/js_timing.asp)
 * CSSi muutmine [HTML DOM Style Object](http://www.w3schools.com/jsref/dom_obj_style.asp)
+
+ ## Kell
+ Kell näitab kellaaega, nädalapäeva, kuupäeva. Saab panna muusika käima, muuta keelt ja vahetada tausta "night mode => day mode" ja vastupidi
