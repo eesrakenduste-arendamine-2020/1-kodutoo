@@ -35,3 +35,12 @@ Kujunda kellanäide vastavalt maitsele või kindlale teemale, mahutades kella t�
 * Sündmuste loetelu [HTML DOM Events](http://www.w3schools.com/jsref/dom_obj_event.asp)
 * Ajal põhinevad sündmused [JavaScript Timing Events](http://www.w3schools.com/js/js_timing.asp)
 * CSSi muutmine [HTML DOM Style Object](http://www.w3schools.com/jsref/dom_obj_style.asp)
+
+
+Raimo Pindus- kodutoo_1
+
+Lõin screensaveri, mis näitab kuupäeva ja kellaaega, laseb kasutajal taustavärvi muuta veidikene ning laseb minna ka pealehele, milleks on Veebi ja Meedia kursusel arendatav veebileht. 
+Samuti saab panna ka laulu käima.
+
+Nupud on animeeritud värvimuutusega kui hiirt peal hoida, et screensaver näeks parem välja.
+Lisasin samuti 4 screenshotti näitamaks milline see on
