@@ -1,0 +1,48 @@
+body{
+    margin:0;
+    background-color: rgb(255,182,193);
+}
+
+div{
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+}
+
+#nimi{
+    text-align: center;
+    font-size: 5em;
+    color:blueviolet;
+}
+
+#container div{
+    padding: 2.5%;
+}
+
+#time {
+    align-self: center;
+    background-color: rgb(132, 154, 223);
+    font-size: 3.5em;
+}
+
+#time:hover{
+    font-size: 7.5em;
+    font-weight: 900;
+}
+
+#container{ 
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background-color: lightseagreen;
+}
+
+#changeTime, #changeColour{
+    cursor: pointer;
+}
+
+
