@@ -15,4 +15,4 @@
 
 Ekraanipilt rakendusest: 
 
-![Ekraanipilt](link-to-image)
+![Ekraanipilt](https://github.com/marisjo/1-kodutoo/blob/master/Screenshot%202020-03-15%20at%2018.37.48.png)
