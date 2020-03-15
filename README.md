@@ -11,4 +11,4 @@
 1) Esimesele nupule vajutades on võimalik muuta kella värv vastavalt mustaks või valgeks (Sellised värvid, kuna taust on juba värviline)
 2) Teisele nupule vajutades on võimalik muuta teiste atribuutide värvi (peale kella)
 3) Kolmandale nupule vajutades on võimalik peita kuu, kuupäev, aastaarv ning päev, et jääks vaid kell
-4) Ükskõik millisele nupule klaviatuuril vajutades on võimalik muuta kell suureks ning uuesti vajutades väikseks tagasi
+4) Ükskõik millisele nupule klaviatuuril vajutades on võimalik muuta kell suureks ning uuesti nupule vajutades väikseks tagasi
