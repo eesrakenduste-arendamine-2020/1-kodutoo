@@ -12,3 +12,7 @@
 2) Teisele nupule vajutades on võimalik muuta teiste atribuutide värvi (peale kella)
 3) Kolmandale nupule vajutades on võimalik peita kuu, kuupäev, aastaarv ning päev, et jääks vaid kell
 4) Ükskõik millisele nupule klaviatuuril vajutades on võimalik muuta kell suureks ning uuesti nupule vajutades väikseks tagasi
+
+Ekraanipilt rakendusest: 
+
+![Ekraanipilt](link-to-image)
