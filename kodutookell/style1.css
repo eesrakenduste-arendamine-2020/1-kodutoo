@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?familiy=Open+Sans:300,400,600,700,800&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: lightblue;
+}
+
+#clock h2 {
+    position: relative;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    margin: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+#dateclock h2 {
+    position: relative;
+    display: block;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 30px
+}
+
+#clock #time{
+    display: flex;
+}
+
+#clock #time div{
+    position: relative;
+}
+
+#clock #time div span
+{
+    position: relative;
+    width: 100px;
+    height: 80px;
+    background: #2196f3;
+    color: #fff;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    z-index: 10;
+    box-shadow: 0 0 0 1px rgba(0,0,0, .2);
+}
+
+#clock #time div span:nth-child(2)
+{
+   height: 30px;
+   background: salmon;
+   font-size: 1em;
+}
+
+#dateclock #date div {
+
+    position: relative;
+    width: 100px;
+    height: 35px;
+    background: salmon;
+    color: #fff;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    z-index: 10;
+    box-shadow: 0 0 0 1px rgba(0,0,0, .2);
+}
+
+#dateclock #date div:nth-child(3){
+    height: 40px;
+    background: salmon;
+    font-size: 1em;
+}
+
+#button{
+    position: absolute;
+    top: 0px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+#nimi{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#repo{
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    left: 90.5%;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
