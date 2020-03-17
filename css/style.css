@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Tomorrow', sans-serif;
+    font-size: 2vh;
+    text-align: center;
+    background-color: black;
+    color: lightgray;
+}
+
+#container{
+    display:flex;
+    flex-direction: column;
+    width: 100vw; 
+    height: 100vh;
+    max-width:100%;
+    max-height: 100%;
+    justify-content: center;
+}
+
+#headerbox{
+    width: 100vw;
+    height: 10vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#mainbox{
+    width: 100vw;
+    height: 80vh;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30vw;
+}
+
+#footerbox{
+    width: 100vw;
+    height: 10vh;
+    background-color: grey;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+#propertybox{
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#timebox{
+    padding: 3%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#time{
+    padding: 3%;
+    font-weight: 600;
+}
+
+#weekday{
+    padding: 1%;
+}
+
+#day{
+    padding: 1%;
+}
+
+#month{
+    padding: 1%;
+}
+
+#year{
+    padding: 3%;
+}
+
+.tedbutton {
+    background-color: darkslategray;
+    border: none;
+    color: lightgray;
+    padding: 20px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.tedbutton:hover {
+    background-color: black;
+}
+
+.smalltime {
+    height: 1vh;
+    font-size: 2vh;
+    text-align: center;
+}

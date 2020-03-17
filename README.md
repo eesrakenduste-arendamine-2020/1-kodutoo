@@ -1,37 +1,19 @@
 # 1kodutoo
-1. kodutöö Eesrakenduste arendamises.
+1. Marko Rillo (198369FAY) kodutöö aines Eesrakenduste arendamine 2020
 
-## Tähtaeg 08.03.2018 23:59
+Otsustasin tavapärase kella asemel kujundada hoopis tööriista, mis toimib küll ka kellana, aga mida põhifunktsionaalsuses saab ennekõike kasutada taimerina. Selle jaoks on mul endal praktiline vajadus olemas - modereerin aruelusid ja tihti on tarvis grupitöös anda ette väga konkreetne ajaline raamistik ja vajadusel pikendada antud aega konkreetse ühiku võrra juhul kui on näha, et osalejatel on tarvis teema arutamiseks kauem aega. 
 
-Kujunda kellanäide vastavalt maitsele või kindlale teemale, mahutades kella täisekraanile, et saaks kasutada lauakella või ekraanisäästja asemel. Selleks, et see sobiks paljudele ekraanidele, kasuta kujunduse loomisel protsendilisi väärtusi (nt width: 100%; ) või nt võimalda kella suurust kasutajal muuta.
+Taimeri kujundus vastab klassikalisele TED kujundusele, et olla hästi nähtav nii hämaras ruumis kui ka väga valges ruumis, niisiis saab valida kahe stiili vahel:
+* Must taust, helehall tekst
+* Värviline taust, värviline tekst
 
-## Nõuded
+Taimeri põhilised elemendid on:
+* Taimeril on olemas nupp: paus / käivita.
+* Taimeril on olemas nupp: reset.
+* Taimeril on olemas nupp värvi  vahetamiseks.
+* Taimeril on olemas nupp fondi vahetamiseks.
 
-1. Veebirakendus töötab. Näitab kella, kuupäeva, nädalapäeva ja aastat.
-1. Vastavalt kasutaja tegevusele on võimalik muuta **kolme** lauakella atribuuti muuta.
-1. Kasutatud on eventListener'e ja funktsioone.
-1. Kell on originaalne ning kasutajaliides on maitsekalt kujundatud kasutades CSS-i - peab olema ise kirjutatud. 
-1. Autori ees- ja perenimi on lehel välja toodud
-1. Lehel on viide rakenduse repositooriumile
-1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
+![Screenshot](https://github.com/markorillo/1-kodutoo/blob/master/Timer_Screenshot.png)
 
-## Mõned ideed võimalikeks täiendusteks (lihtsalt, et mõte hakkaks jooksma)
-
-* Vahetuda võivad taustapildid, taustal võib mängida muusika
-* Taustale klikkides muudetakse kella taustaväri
-* Kellale klõpsides muudetakse numbrite värvi või numbrite suurust;
-* Iga numbri suurust saab eraldi muuta
-* Nooleklahvidega saab kella ekraanil liigutada
-* Küsi enne kella näitamise alustamist kasutajalt tema lemmikvärv ja tee sellest lähtudes midagi
-* Muuda kella ja tausta värvi vastavalt ajale (päev/öö)
-* Kella suurus ja asukoht sõltuvad hiire asukohast ekraanil
-* Kirjatüüpi saab ka muuta, [google.com/fonts](https://www.google.com/fonts)
-* Kasutaja saab lisada või kasutajaöe näidatakse mitu kellaaega erinevatest maailma kohtadest
-* Elemendid muudavad asukohta teatud kasutaja käitumise peale.
-* Saab vahetada keelt, kellaformaati vms.
-
-## Abimaterjal
-
-* Sündmuste loetelu [HTML DOM Events](http://www.w3schools.com/jsref/dom_obj_event.asp)
-* Ajal põhinevad sündmused [JavaScript Timing Events](http://www.w3schools.com/js/js_timing.asp)
-* CSSi muutmine [HTML DOM Style Object](http://www.w3schools.com/jsref/dom_obj_style.asp)
+Viide kodutöö allikale ja nõuetele:
+https://github.com/eesrakenduste-arendamine-2020/kursus
