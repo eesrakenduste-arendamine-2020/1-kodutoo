@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Presentation timer and speech clock.">
+	<meta name="author" content="Marko Rillo, TLU">
+
+    <title>Clock and presentation timer</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+    <script defer src="js/app.js"></script>
+
+</head>
+<body>
+    <div id="container">
+        <div id="headerbox">Clock and presentation timer by Marko Rillo - 198369FAY</div>
+        <div id="mainbox">5:00</div>
+        <div id="footerbox">
+            <div id="propertybox">
+                <button class="tedbutton" id="colorButton">Color</button>
+                <button class="tedbutton" id="fontButton">Round</button>
+                <button class="tedbutton" id="resetTimerButton">Reset</button>
+                <button class="tedbutton" id="playPauseToggleButton">Play</button>
+            </div>
+            <div id="timebox">
+                <div class="smalltime" id="time">Kellaeg</div>
+                <div class="smalltime" id="weekday">Nädalapäev</div>
+                <div class="smalltime" id="date">Kuupäev</div>
+                <div class="smalltime" id="month">Kuu</div>
+                <div class="smalltime" id="year">Aasta</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
