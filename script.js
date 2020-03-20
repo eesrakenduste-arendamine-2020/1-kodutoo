@@ -79,7 +79,9 @@ function changeLanguage(){
      dayContainer.innerHTML = daysEng[day];
      document.getElementById('sunny').innerHTML = "Sun!";
      document.getElementById('rainy').innerHTML = "Thunder!";
-     document.getElementById('english').innerHTML = "1 click = english <br> <br> 2 clicks = estonian"
+     document.getElementById('english').innerHTML = "1 click = english <br> <br> 2 clicks = estonian";
+     document.getElementById('colors').innerHTML = "Press me!";
+     document.getElementById('github').innerHTML = "REPOSITORY";
 }
 
 function languageBack(){
@@ -87,8 +89,11 @@ function languageBack(){
     dayContainer.innerHTML = days[day];
     document.getElementById('sunny').innerHTML = "Päikest!";
     document.getElementById('rainy').innerHTML = "Vihma!";
-    document.getElementById('english').innerHTML = "1 klikk = inglise keel <br> <br> 2 klikki = eesti keel"
+    document.getElementById('english').innerHTML = "1 klikk = inglise keel <br> <br> 2 klikki = eesti keel";
+    document.getElementById('colors').innerHTML = "Vajuta mind!";
+    document.getElementById('github').innerHTML = "REPOSITOORIUM";
 }
+
  function changeColors(){
     //console.log('hiir üle');
     document.getElementById('container').style.animationName = "test";
