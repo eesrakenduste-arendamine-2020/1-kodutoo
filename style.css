@@ -1,0 +1,161 @@
+html{
+    background-image: url("JS.jpg") ;
+    background-position: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    
+}
+
+head, body{
+    margin: 0;
+    font-size: 2.5em;
+    height: 100%;
+    width: 100%;
+    background-image: url("JS.jpg");
+    background-position:unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 0%;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Staatliches';
+    color: aliceblue;
+}
+
+/*#container div{
+    padding: 2%;
+}*/
+
+div{
+    text-align: right;
+    
+}
+
+#time{
+    order: 1;
+    align-self: center;
+    font-size: larger;
+}
+
+#date{
+    order: 5;
+    align-self: right;
+    
+    
+}
+
+
+#month{
+    order: 4;
+    
+}
+
+#year{
+    order: 7;
+   
+}
+
+#weekday{
+    order: 6;
+    
+}
+#sunny{
+    order: 2;
+    font-size: larger;
+    border: none;
+    padding: none;
+    text-align: center;
+    display: flex;
+    width: 5%;
+    justify-content: center;
+    align-self: center;
+    background-color: transparent;
+    font-family: 'Staatliches';
+    color: yellow;
+}
+
+#rainy{
+    order: 3;
+    font-size: larger;
+    border: none;
+    padding: none;
+    text-align: center;
+    display: flex;
+    width: 0%;
+    justify-content: center;
+    align-self: center;
+    background-color: transparent;
+    font-family: 'Staatliches';
+    visibility: hidden;
+    color: grey;
+
+}
+
+#playMusic{
+    background-color: transparent;
+}
+
+  
+#english {
+    order: 2;
+    font-size: large;
+    border: 10px;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    width: 10%;
+    height: 10%;
+    justify-content: center;
+    align-self: center;
+    background-color: transparent;
+    font-family: 'Staatliches';
+    color: white;
+}
+#github{
+   
+    font-size: large;
+    border: 10px;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    width: 10%;
+    height: 10%;
+    justify-content: center;
+    align-self: center;
+    background-color: transparent;
+    font-family: 'Staatliches';
+    color: white;
+
+}
+#colors{
+    font-size: large;
+    border: 10px;
+    padding: 25px;
+    text-align: center;
+    display: flex;
+    width: 10%;
+    height: 10%;
+    justify-content: center;
+    align-self: center;
+    background-color: transparent;
+    font-family: 'Staatliches';
+    color: white;
+}
+
+@keyframes test {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+}
+
