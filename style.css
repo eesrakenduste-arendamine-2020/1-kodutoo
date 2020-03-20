@@ -1,0 +1,85 @@
+body{
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190620/ourmid/pngtree-black-minimalist-clock-background-image_161700.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    opacity: 0.8;
+
+}
+div{
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+#container div{
+    padding: 2%;
+}
+
+
+#time{
+    color: yellow;
+    order: 2;
+    align-self: center;
+    font-size: 95px;
+}
+
+#biggerTime div{
+    display:flex;
+    padding: 10%;
+    justify-content: center;
+}
+
+#biggerTime{
+    color: yellow;
+    order: 3;
+    align-self: center;
+    font-size: 135%;
+    background-color: maroon;
+}
+
+
+
+#date{
+    order: 5;
+    color: yellow;
+    align-self: center;
+   
+}
+#month{
+    order: 6;
+    color: yellow;
+    align-self: center;
+
+}
+#year{
+    order: 7;
+    color: yellow;
+    align-self: center;
+
+}
+#weekday{
+    order: 4;
+    color: yellow;
+    align-self: center;
+
+}
+
+#name{
+    order: 1;
+    color: yellow;
+    align-self: center;
+}
+
+#changeColor{
+    order: 3;
+    color: maroon;
+    align-self: center;
+}
