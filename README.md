@@ -1,4 +1,4 @@
-##Filip Taik
+## Filip Taik
 
 ![alt text](kodutoo_2.jpg "Ekraanipilt")
 
