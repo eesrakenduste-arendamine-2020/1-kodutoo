@@ -1,4 +1,4 @@
-# 1kodutoo
+# 1kodutoo.
 1. kodutöö Eesrakenduste arendamises.
 
 ## Tähtaeg 08.03.2018 23:59
