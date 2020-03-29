@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    background-image: url('6.jpg');
+    background-size: cover;
+}
+
+#container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: transparent;
+}
+
+#time{
+    font-size: 7.5em;
+    order: 2;
+}
+
+#time:hover{
+    font-size: 15.5em;
+}
+
+#date, #weekday, #year{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+#date:hover, #weekday:hover, #year:hover, #madeby:hover{
+    opacity: 0.0;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#openyoutube, #opentoggle, #textcolour, #backgoundpicture{
+    width: 8vw;
+    cursor: pointer;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: 1.0em;
+    border-radius: 10px;
+    border-color: silver;
+    padding: 20px;
+}
+
+#openyoutube:hover, #opentoggle:hover, #textcolour:hover{
+    background-color: whitesmoke;
+}
+
+#author{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 15px;
+    color: white;
+}
+
+#backgoundmusic{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    opacity: 0.5;
+}
