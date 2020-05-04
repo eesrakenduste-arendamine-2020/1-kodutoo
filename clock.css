@@ -1,0 +1,81 @@
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/pilt.jpeg);
+    color:white;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 20vh;
+
+}
+
+#time{
+    color: aliceblue;
+    width: 100%;
+    font-size: 8vw;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+#time:hover{
+    background-color: red;
+}
+
+
+#day{
+    
+    color: aliceblue;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3vw;
+
+}
+
+#date{
+    
+    color: aliceblue;
+    font-size: 3vw;
+    font-family: 'Orbitron', sans-serif;
+    
+}
+
+#month{
+   
+    color: aliceblue;
+    font-family: 'Great Vibes', cursive;
+    font-size: 3vw;
+    
+}
+
+#year{
+    font-family: 'Orbitron', sans-serif;
+    color: aliceblue;
+    font-size: 3vw;
+}
+
+input[type="button"]{
+    
+    width:12%;
+    border-radius: 30px;
+    height: 35px;
+    padding: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(0, 0, 0);
+    border: 1px white;
+    color:white;
+}
+
+input[type="button"]:hover{
+    background-color: rgb(255, 255, 255);
+    border-color: black;
+    font-weight: 600;
+    color:black;
+}
