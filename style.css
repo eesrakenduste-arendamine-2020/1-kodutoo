@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-image: url("https://media.giphy.com/media/5BYCbzhKPrjHCHBezb/source.gif");
+
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+.container{
+    position: relative;
+    width: center;
+    display: grid;
+    font-weight: bold;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: auto;
+    grid-gap: 0 40px;
+}
+
+.container .box{
+    position: relative;
+    height: 400px;
+    background:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    background-image: url("https://media.giphy.com/media/yv3OgErAJzehNEv32m/source.gif");
+}
+.box{
+    color: white;
+}
+
+.container #time{
+    position: relative;
+    height: 70%;
+    top: 10%;
+    left: 33%;
+    color: white;
+    cursor: pointer;
+}
+
+.container #day{
+    position: relative;
+    height: 60%;
+    top: 10%;
+    left: 1%;
+    color: white;
+    cursor: pointer;
+}
+
+.container #date{
+    position: relative;
+    height: 60%;
+    top: 10%;
+    left: 5%;
+    color: white;
+    cursor: pointer;
+}
+.container #month{
+    position: relative;
+    height: 60%;
+    top: 10%;
+    left: 10%;
+    color: white;
+    cursor: pointer;
+}
+
+.container #year{
+    position: relative;
+    height: 70%;
+    top: 10%;
+    left: -13%;
+    color: white;
+    cursor: pointer;
+}
+
+.container #creator{
+    position: relative;
+    height: -70%;
+    left: -76%;
+    color: white;
+    top: 150px;
+}
+
+.container .box:before{
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: white;
+    transform: skew(2deg,2deg);
+    z-index: -1;
+}
+
+.container .box:nth-child(1):before{
+    background: linear-gradient(315deg, blue, red);
+}
+.container .box:nth-child(2):before{
+    background: linear-gradient(315deg, yellow, white);
+}
+.container .box:nth-child(3):before{
+    background: linear-gradient(315deg, orange, green);
+}
+
+.content{
+    position: absolute;
+    padding: 15px;
+    top: 50px;
+}
+
+.content h3{
+    position: absolute;
+    top: -20px;
+    right: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.box .content h3{
+    margin: 0 0 10px;
+    padding: 0;
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+
+.box .content a{
+    position: relative;
+    margin: 0;
+    display: grid;
+    top: 150px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+    padding: 10px 10px;
+    text-decoration: none;
+    border: 1px solid;
+    color: white;
+}
+
+.box a:hover{
+    background-color: white;
+    color: black;
+    border-color: red;
+    cursor: pointer;
+}
+
+#playSong{
+    cursor: pointer;
+}
