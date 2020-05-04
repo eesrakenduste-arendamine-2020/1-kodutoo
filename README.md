@@ -1,6 +1,30 @@
 # 1kodutoo
 1. kodutöö Eesrakenduste arendamises.
 
+Autor : Jan Morten Kivi
+
+Funktsionaalsus
+
+* Näitab kella ja kuupäeva 
+* Saab muuta suurust
+* Saab muuta kella värvi 
+* Saab muuta taustavärvi
+* Saab muuta fonti
+* Saab muuta tausapilti
+
+http://localhost:5555/~jankiv/Eesrakendused/clock1.html
+
+![alt text](https://github.com/janmortenk/1-kodutoo/blob/master/Screenshot%202020-03-08%20at%2017.11.28.png?raw=true)
+
+
+
+
+
+
+
+# 1kodutoo
+1. kodutöö Eesrakenduste arendamises.
+
 ## Tähtaeg 08.03.2018 23:59
 
 Kujunda kellanäide vastavalt maitsele või kindlale teemale, mahutades kella täisekraanile, et saaks kasutada lauakella või ekraanisäästja asemel. Selleks, et see sobiks paljudele ekraanidele, kasuta kujunduse loomisel protsendilisi väärtusi (nt width: 100%; ) või nt võimalda kella suurust kasutajal muuta.
