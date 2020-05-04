@@ -1,0 +1,110 @@
+
+body{
+    margin: auto;
+    background-image: url("kell.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+  background-size: cover;
+  }
+#ekraan{
+margin:0;
+    padding:0;
+    z-index:9999;
+    width: 100%;
+    height: 100%;
+}
+div:hover {
+  animation-play-state: paused;
+}
+.nupp{
+    width:30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    justify-content: center;
+    margin: 5px;   
+
+}
+#nimi {
+    position:absolute;
+    bottom:0;
+    right:0;
+  }
+#varvidevalik {
+  width: max-content ;
+    height: max-content;
+    position: absolute;
+    bottom:0;
+    left:0;
+  }
+  #Screensaver{
+    position: relative; 
+    max-width: 1900; 
+    max-height:1280; 
+    left:0px; 
+    top: 0px; 
+    z-index:9999; 
+    border:5px;
+  }
+  #KellaKast{
+    left:130px; 
+    top: 180px; 
+    width: 300px ;
+    height: 300px;
+    position: relative;
+    animation-name: liigutaja;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-delay: 60s;
+    border-radius: 150px;
+    background-color: rgba(116, 111, 91, 0.753); 
+    
+  }
+  #kell_paev {
+    padding-top: 80px;
+    font-size: 25px;
+    text-align: center;
+  }
+  #kell_kuu_aasta {
+    padding: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+  #kella_aeg {
+    text-align: center;
+    font-variant-numeric: oldstyle-nums;
+    font-size: 30px;
+  }
+  @keyframes liigutaja {
+    from {
+      transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+    0%   {background-color:rgba(61, 79, 85, 0.753); left:130px; top: 180px;}
+    5%   {background-color:rgba(45, 97, 112, 0.705); left:150px; top: 200px;}
+    10%   {background-color:rgb(45, 98, 114); left:180px; top: 220px;}
+    15%   {background-color:rgba(24, 138, 172, 0.753); left:210px; top: 240px;}
+    20%   {background-color:rgba(20, 179, 228, 0.788); left:240px; top: 220px;}
+    
+    25%  {background-color:rgba(240, 240, 140, 0.815); left:270px; top:200px;}
+    30%  {background-color:rgba(187, 214, 90, 0.808); left:300px; top:180px;}
+    35%  {background-color:rgba(151, 151, 49, 0.774); left:330px; top:200px;}
+    40%  {background-color:rgba(104, 104, 24, 0.705); left:360px; top:220px;}
+    45%  {background-color:rgba(82, 82, 7, 0.705); left:390px; top:240px;}
+
+    50%  {background-color:rgb(131, 75, 23); left:420px; top:220px;}
+    55%  {background-color:rgba(192, 135, 30, 0.877); left:450px; top:200px;}
+    60%  {background-color:rgba(202, 167, 52, 0.795); left:480px; top:180px;}
+    65%  {background-color:rgb(182, 131, 54); left:510px; top:200px;}
+    70%  {background-color:rgb(224, 158, 83); left:540px; top:220px;}
+
+    75%  {background-color:rgb(91, 124, 91); left:570px; top:240px;}
+    80%  {background-color:rgba(61, 110, 61, 0.76); left:600px; top:220px;}
+    85%  {background-color:rgba(58, 141, 58, 0.788); left:630px; top:200px;}
+    90%  {background-color:rgba(43, 182, 43, 0.664); left:660px; top:220px;}
+    95%  {background-color:rgba(54, 160, 54, 0.774); left:690px; top:240px;}
+    100% {background-color:rgba(37, 109, 31, 0.884); left:130px; top:180px;}
+    
+    
+}
