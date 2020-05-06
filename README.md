@@ -10,8 +10,8 @@ Rene Raidmaa 1.kodutöö eesrakenduste arenduses - kella veebirakendus
 
 
 ## Kuvatõmmised
-1. Lehekülg täisekraanil:
+1. Lehekülg täisekraanil: 
 https://pasteboard.co/J79bcpD.png
 
-1. Lehekülg täisekraanil alla keritult:
+1. Lehekülg täisekraanil alla keritult: 
 https://pasteboard.co/J79bC9P.png
