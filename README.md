@@ -1,37 +1,17 @@
 # 1kodutoo
-1. kodutöö Eesrakenduste arendamises.
+Rene Raidmaa 1.kodutöö eesrakenduste arenduses - kella veebirakendus
 
-## Tähtaeg 08.03.2018 23:59
+## Funktsionaalsused
+1. Võimalik on muuta kella taust läbipaistvaks.
+1. Taustapilti saab eemaldada.
+1. Kella teksti saab muuta kas valgeks või mustaks.
+1. Saab muuta ka kella fonti väiksemaks.
+1. Kella peale vajutades on võimalik kuulata rahustavat muusikat. Uuesti klikates jääb muusika pausile.
 
-Kujunda kellanäide vastavalt maitsele või kindlale teemale, mahutades kella täisekraanile, et saaks kasutada lauakella või ekraanisäästja asemel. Selleks, et see sobiks paljudele ekraanidele, kasuta kujunduse loomisel protsendilisi väärtusi (nt width: 100%; ) või nt võimalda kella suurust kasutajal muuta.
 
-## Nõuded
+## Kuvatõmmised
+1. Lehekülg täisekraanil:
+https://pasteboard.co/J79bcpD.png
 
-1. Veebirakendus töötab. Näitab kella, kuupäeva, nädalapäeva ja aastat.
-1. Vastavalt kasutaja tegevusele on võimalik muuta **kolme** lauakella atribuuti muuta.
-1. Kasutatud on eventListener'e ja funktsioone.
-1. Kell on originaalne ning kasutajaliides on maitsekalt kujundatud kasutades CSS-i - peab olema ise kirjutatud. 
-1. Autori ees- ja perenimi on lehel välja toodud
-1. Lehel on viide rakenduse repositooriumile
-1. `README.md` failis on välja toodud autori nimi, ekraanipilt rakendusest ja kirjeldatud funktsionaalsus
-
-## Mõned ideed võimalikeks täiendusteks (lihtsalt, et mõte hakkaks jooksma)
-
-* Vahetuda võivad taustapildid, taustal võib mängida muusika
-* Taustale klikkides muudetakse kella taustaväri
-* Kellale klõpsides muudetakse numbrite värvi või numbrite suurust;
-* Iga numbri suurust saab eraldi muuta
-* Nooleklahvidega saab kella ekraanil liigutada
-* Küsi enne kella näitamise alustamist kasutajalt tema lemmikvärv ja tee sellest lähtudes midagi
-* Muuda kella ja tausta värvi vastavalt ajale (päev/öö)
-* Kella suurus ja asukoht sõltuvad hiire asukohast ekraanil
-* Kirjatüüpi saab ka muuta, [google.com/fonts](https://www.google.com/fonts)
-* Kasutaja saab lisada või kasutajaöe näidatakse mitu kellaaega erinevatest maailma kohtadest
-* Elemendid muudavad asukohta teatud kasutaja käitumise peale.
-* Saab vahetada keelt, kellaformaati vms.
-
-## Abimaterjal
-
-* Sündmuste loetelu [HTML DOM Events](http://www.w3schools.com/jsref/dom_obj_event.asp)
-* Ajal põhinevad sündmused [JavaScript Timing Events](http://www.w3schools.com/js/js_timing.asp)
-* CSSi muutmine [HTML DOM Style Object](http://www.w3schools.com/jsref/dom_obj_style.asp)
+1. Lehekülg täisekraanil alla keritult:
+https://pasteboard.co/J79bC9P.png
