@@ -28,7 +28,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 
     justify-content: center;
     align-items: center;
@@ -44,7 +44,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: space-evenly;
 
     min-width: 900px;
-    width: 70vw;
+    width: 70%;
 
     min-height: 100px;
     height: 25vh;
@@ -91,7 +91,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
 
     min-width: 200px;
-    width: 20vw;
+    width: 20%;
 
     min-height: 50px;
     height: 10vh;
@@ -133,7 +133,7 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     justify-content: center;
 
-    width: auto;
+    width: 100%;
 
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.5); 
@@ -176,7 +176,7 @@ body::-webkit-scrollbar-thumb {
 
 #author{
     display: flex;
-    width: auto;
+    width: 100%;
 
     align-content: center;
     justify-content: center;
