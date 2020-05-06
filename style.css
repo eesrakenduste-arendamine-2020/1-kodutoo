@@ -1,0 +1,72 @@
+:root {
+    --bgcolor: white;
+    --hcolor: black;
+    --dbgcolor: black;
+    --dcolor: white;
+}
+
+.darkmode {
+    --bgcolor: black;
+    --hcolor: white;
+    --dbgcolor: white;
+    --dcolor: black;
+}
+
+html, body {
+    margin: 0;
+    width: 100%;
+    background-color: var(--bgcolor);
+}
+
+.parent-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.time-div {
+    text-align: center;
+}
+
+#dateDisplay {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+}
+
+#timeDisplay {
+    font-family: 'Roboto', sans-serif;
+    font-size: 80px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.dark-mode-toggle {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--dbgcolor);
+    border: none;
+    color: var(--dcolor);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+h4, h3 {
+    color: var(--hcolor);
+}
+
+a {
+    color: var(--hcolor);
+    text-decoration: none;
+}
