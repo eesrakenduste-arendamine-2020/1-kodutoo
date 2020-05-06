@@ -4,5 +4,5 @@
 1. Kell, Kuupäev.
 2. DarkMode, mis salvestab seadeid localhost'i.
 3. Kasutatud GoogleFont'i kaks tüüpi fonte.
-![](screen1.png)
-![](screen2.png)
+![Screenshot 1](/screen1.png)
+![Screenshot 2](/screen2.png)
