@@ -1,3 +1,17 @@
+Taavi Vestel
+
+Kell näitab kellaaega, päeva, kuupäeva, kuud ja aastat.
+Lisaks on võimalik muuta kella värvi ja suurust, taustapilti eemaldada, ning muusikat mängida.
+
+http://www.tlu.ee/~vestel/Homework1_3/kell.html
+
+https://pasteboard.co/J7JKRi6.png
+Kell lehele tulles.
+
+https://pasteboard.co/J7JLl4N.png
+Kell koos muudatustega.
+
+
 # 1kodutoo
 1. kodutöö Eesrakenduste arendamises.
 
