@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    background-image: url('Starry night.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: black;
+    border: none;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(98, 247, 252, 0.5);
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+#container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    margin-bottom: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#clock{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 150px;
+    font-family: 'LIBRARY 3 AM', cursive;
+    color: rgba(98, 247, 252, 0.5);
+}
+
+#dateYear{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 50px;
+    font-family: 'LIBRARY 3 AM', cursive;
+    color: rgba(0, 0, 0, 0.80);
+}
+
+#date{
+    padding: 10px;
+}
+
+#month{
+    padding: 10px;
+}
+
+#year{
+    padding: 10px
+}
+
+#time{
+    padding: 50px;
+}
+
+#day{
+    padding: 50px;
+}
+
+#creator{ 
+
+    width: 100%;
+    background-color: black ;
+    padding: none;
+    color: rgb(192, 192, 192);
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 15px;
+    font-family: 'Times New Roman';
+
+}    
+
+#containerButton{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+#buttons{
+    padding: 10px;
+    
+}
+
+button{
+    height: 40px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgba(98, 247, 252, 0.7);
+    font-size: 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.15);
+    color: rgba(98, 247, 252, 0.7);
+
+    border: solid 1px black;
+    
+    cursor: pointer;
+}
+
+button:active{
+    background-color: rgba(255, 255, 255, 0.4);
+    color: rgba(98, 247, 252, 0.7);
+    
+    border: solid 1px black;
+    
+    cursor: pointer;
+}
+
+#music{
+    display: none;
+}
